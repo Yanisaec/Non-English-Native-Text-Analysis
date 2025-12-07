@@ -1,0 +1,119 @@
+Datasets Metrics:
+
+ASAP2 (native)
+
+TTR                 : 0.4724
+MSTTR               : 0.7782
+MTLD                : 61.5857
+LexicalDensity      : 0.5752
+AvgLogFreq          : -7.2185
+"freq_articles_per_1000": 76.69894914054288,
+"freq_prepositions_per_1000": 44.85308015681563,
+"freq_pronouns_per_1000": 54.20526358197145,
+"freq_determiners_per_1000": 98.98350293393055,
+"freq_auxiliaries_per_1000": 89.39281473953437,
+"ratio_definite_indefinite_article": 2.0649799613295867,
+"ratio_preposition_variety": 0.0018528035616703178
+{'mean_sentence_length': np.float64(20.968943240951116), 'variance_sentence_length': np.float64(132.74829052174465), 'pos_ngram_1_freq_NOUN': 183.88955276286865, 'pos_ngram_1_freq_VERB': 124.64980175988408, 'pos_ngram_1_freq_DET': 91.32976365975361, 'pos_ngram_1_freq_PUNCT': 90.3970334786222, 'pos_ngram_1_freq_ADP': 88.64182302213766, 'pos_ngram_2_freq_DET_NOUN': 63.14163897270256, 'pos_ngram_2_freq_NOUN_PUNCT': 43.030218660315846, 'pos_ngram_2_freq_ADJ_NOUN': 36.66638238701831, 'pos_ngram_2_freq_NOUN_ADP': 34.94602448226984, 'pos_ngram_2_freq_PRON_AUX': 30.688620512034916, 'pos_ngram_3_freq_ADP_DET_NOUN': 21.64333476405222, 'pos_ngram_3_freq_DET_ADJ_NOUN': 15.693734549783924, 'pos_ngram_3_freq_VERB_DET_NOUN': 15.354795980751804, 'pos_ngram_3_freq_DET_NOUN_ADP': 13.243969659705277, 'pos_ngram_3_freq_NOUN_ADP_DET': 11.630066827021691, 'subordination_index': 0.6865698520558272, 'mean_parse_tree_depth': np.float64(5.228541812813452), 'average_dependency_length': np.float64(3.0846430536524014), 'nsubj_per_1000': 96.36890337494535, 'obj_omission_per_1000': 34.424634302860085, 'aux_usage_per_1000': 63.95982509411687}
+{'char_ngram_1_freq_e': 121.6912292738775, 'char_ngram_1_freq_t': 90.95189269189864, 'char_ngram_1_freq_a': 78.70590790008677, 'char_ngram_1_freq_o': 76.35296021588974, 'char_ngram_1_freq_s': 65.8487338535748, 'char_ngram_1_freq_n': 64.57079490974391, 'char_ngram_1_freq_i': 60.92556536780567, 'char_ngram_1_freq_r': 54.66449183056016, 'char_ngram_1_freq_h': 50.06403890777291, 'char_ngram_1_freq_l': 42.355138772342514, 'char_ngram_2_freq_th': 28.84039352256385, 'char_ngram_2_freq_he': 22.66809430059595, 'char_ngram_2_freq_in': 16.285742370132745, 'char_ngram_2_freq_an': 15.136620415909258, 'char_ngram_2_freq_er': 14.13973894721837, 'char_ngram_2_freq_re': 13.909934137143516, 'char_ngram_2_freq_es': 12.766735365797663, 'char_ngram_2_freq_st': 11.676062009556787, 'char_ngram_2_freq_en': 11.662404422590999, 'char_ngram_2_freq_on': 11.526636259689177, 'char_ngram_3_freq_the': 16.995349469258336, 'char_ngram_3_freq_ing': 8.357170473021467, 'char_ngram_3_freq_and': 6.102028734192322, 'char_ngram_3_freq_tha': 5.174658998445581, 'char_ngram_3_freq_hat': 4.8926224848133995, 'char_ngram_3_freq_ent': 4.363574559606458, 'char_ngram_3_freq_eth': 3.760168660919123, 'char_ngram_3_freq_her': 3.6541632681793006, 'char_ngram_3_freq_ion': 3.6174003727982766, 'char_ngram_3_freq_oul': 3.6108897668253395, 'comma_per_1000': 29.797694261236206, 'semicolon_per_1000': 0.43734660437419004, 'quotation_marks_per_1000': 18.605281666699852, 'parentheses_per_1000': 1.7117760173965195, 'irregularity_all_caps_per_1000': 8.339452565542155, 'irregularity_mid_sentence_cap_per_1000': 28.64132530200447}
+{'connective_freq_however_per_1000': 0.37007024697563107, 'connective_freq_therefore_per_1000': 0.17357099083694, 'connective_freq_moreover_per_1000': 0.008849505905939003, 'connective_freq_thus_per_1000': 0.043543591559904414, 'connective_freq_consequently_per_1000': 0.0026146267449365236, 'connective_freq_furthermore_per_1000': 0.057722913522829405, 'connective_freq_nevertheless_per_1000': 0.011765820352214356, 'total_connectives_per_1000': 0.6681376958983948, 'avg_lexical_overlap_jaccard': np.float64(0.0761060915050387)}
+
+
+PERSUADE (native)
+
+TTR                 : 0.4357
+MSTTR               : 0.7719
+MTLD                : 59.8059
+LexicalDensity      : 0.5691
+AvgLogFreq          : -7.0023
+"freq_articles_per_1000": 66.67776779657318,
+"freq_prepositions_per_1000": 41.96439390420597,
+"freq_pronouns_per_1000": 65.35989781073094,
+"freq_determiners_per_1000": 88.01724167943848,
+"freq_auxiliaries_per_1000": 90.45530115324662,
+"ratio_definite_indefinite_article": 1.692539278684927,
+"ratio_preposition_variety": 0.0013113165985116637
+{'mean_sentence_length': np.float64(21.773032630440014), 'variance_sentence_length': np.float64(144.2870355836232), 'pos_ngram_1_freq_NOUN': 187.8431535995081, 'pos_ngram_1_freq_VERB': 134.0039167896499, 'pos_ngram_1_freq_PRON': 100.23603331734805, 'pos_ngram_1_freq_ADP': 89.42883581982768, 'pos_ngram_1_freq_PUNCT': 84.77051885144851, 'pos_ngram_2_freq_DET_NOUN': 56.125830664149966, 'pos_ngram_2_freq_NOUN_PUNCT': 44.12142385394418, 'pos_ngram_2_freq_ADJ_NOUN': 36.692735850234605, 'pos_ngram_2_freq_NOUN_ADP': 33.823398886519406, 'pos_ngram_2_freq_PRON_AUX': 32.39552218406076, 'pos_ngram_3_freq_ADP_DET_NOUN': 19.44710022236539, 'pos_ngram_3_freq_VERB_DET_NOUN': 15.569880069831303, 'pos_ngram_3_freq_DET_ADJ_NOUN': 14.518715106706026, 'pos_ngram_3_freq_PRON_AUX_VERB': 12.7094019488104, 'pos_ngram_3_freq_DET_NOUN_ADP': 11.659249424850184, 'subordination_index': 0.7245085594514016, 'mean_parse_tree_depth': np.float64(5.310574261208849), 'average_dependency_length': np.float64(3.0986175070380373), 'nsubj_per_1000': 96.89810576007014, 'obj_omission_per_1000': 35.037313445428346, 'aux_usage_per_1000': 68.4600395323746}
+{'char_ngram_1_freq_e': 122.26253314998718, 'char_ngram_1_freq_t': 94.30874049935578, 'char_ngram_1_freq_o': 80.15940588265134, 'char_ngram_1_freq_a': 73.7138670601182, 'char_ngram_1_freq_n': 65.26493436319461, 'char_ngram_1_freq_s': 63.57109455474686, 'char_ngram_1_freq_i': 61.58521835130696, 'char_ngram_1_freq_r': 52.41260482167124, 'char_ngram_1_freq_h': 50.62822285915344, 'char_ngram_1_freq_l': 42.001344265864255, 'char_ngram_2_freq_th': 28.1623637024176, 'char_ngram_2_freq_he': 22.765485174973534, 'char_ngram_2_freq_in': 17.111092782057014, 'char_ngram_2_freq_an': 13.904353885834796, 'char_ngram_2_freq_er': 13.752622958409296, 'char_ngram_2_freq_re': 13.29094822763118, 'char_ngram_2_freq_es': 12.677152832017658, 'char_ngram_2_freq_en': 12.46136138190055, 'char_ngram_2_freq_st': 12.397977771552464, 'char_ngram_2_freq_ou': 11.864919557275533, 'char_ngram_3_freq_the': 17.171891818002557, 'char_ngram_3_freq_ing': 8.898176855575192, 'char_ngram_3_freq_and': 6.06923709701998, 'char_ngram_3_freq_ent': 5.941526301541926, 'char_ngram_3_freq_tha': 4.899758204859643, 'char_ngram_3_freq_hat': 4.6527877619499485, 'char_ngram_3_freq_eth': 4.034028342483923, 'char_ngram_3_freq_her': 4.009803085583894, 'char_ngram_3_freq_you': 3.698874682458881, 'char_ngram_3_freq_oul': 3.5180775492523986, 'comma_per_1000': 30.560710960913415, 'semicolon_per_1000': 0.5045232208871085, 'quotation_marks_per_1000': 15.050548251962445, 'parentheses_per_1000': 1.173400632525932, 'irregularity_all_caps_per_1000': 9.180743597444971, 'irregularity_mid_sentence_cap_per_1000': 20.00163335466429}
+{'connective_freq_however_per_1000': 0.49841087495006126, 'connective_freq_therefore_per_1000': 0.23473106272132846, 'connective_freq_moreover_per_1000': 0.020883848618244775, 'connective_freq_thus_per_1000': 0.05305855848131295, 'connective_freq_consequently_per_1000': 0.01069660538983269, 'connective_freq_furthermore_per_1000': 0.07886624132662357, 'connective_freq_nevertheless_per_1000': 0.014262140519776919, 'total_connectives_per_1000': 0.9109093320071806, 'avg_lexical_overlap_jaccard': np.float64(0.08368077256934912)}
+
+
+TOEFL11 (non-native)
+
+TTR                 : 0.4763
+MSTTR               : 0.7746
+MTLD                : 59.4917
+LexicalDensity      : 0.5823
+AvgLogFreq          : -7.0325
+"freq_articles_per_1000": 67.58450153204757,
+"freq_prepositions_per_1000": 49.13398995359061,
+"freq_pronouns_per_1000": 59.93346194967239,
+"freq_determiners_per_1000": 88.29874031644398,
+"freq_auxiliaries_per_1000": 80.930099209786,
+"ratio_definite_indefinite_article": 1.9835885752858289,
+"ratio_preposition_variety": 0.002949474224160041
+{'mean_sentence_length': np.float64(22.07383070581169), 'variance_sentence_length': np.float64(172.76878066289018), 'pos_ngram_1_freq_NOUN': 191.1786183730101, 'pos_ngram_1_freq_VERB': 123.65334578628978, 'pos_ngram_1_freq_PRON': 96.93142842790417, 'pos_ngram_1_freq_ADP': 92.31668711667857, 'pos_ngram_1_freq_PUNCT': 85.98865652259254, 'pos_ngram_2_freq_DET_NOUN': 55.99853578535023, 'pos_ngram_2_freq_NOUN_PUNCT': 50.41098477272579, 'pos_ngram_2_freq_ADJ_NOUN': 48.38768943393313, 'pos_ngram_2_freq_NOUN_ADP': 38.45354188314376, 'pos_ngram_2_freq_ADP_DET': 30.87037049095843, 'pos_ngram_3_freq_ADP_DET_NOUN': 21.600421961731346, 'pos_ngram_3_freq_DET_ADJ_NOUN': 16.72683838474984, 'pos_ngram_3_freq_VERB_DET_NOUN': 15.302391953703282, 'pos_ngram_3_freq_DET_NOUN_ADP': 14.064693356800458, 'pos_ngram_3_freq_ADJ_NOUN_PUNCT': 12.959555488990947, 'subordination_index': 0.6755904865064657, 'mean_parse_tree_depth': np.float64(5.330754580409349), 'average_dependency_length': np.float64(3.0610301430969478), 'nsubj_per_1000': 90.89503143782343, 'obj_omission_per_1000': 30.723042031518755, 'aux_usage_per_1000': 57.7560119779084}
+{'char_ngram_1_freq_e': 126.03930537443797, 'char_ngram_1_freq_t': 92.80492870321727, 'char_ngram_1_freq_o': 78.35414045485835, 'char_ngram_1_freq_a': 72.46558057399115, 'char_ngram_1_freq_n': 68.49532233245215, 'char_ngram_1_freq_i': 65.13288678838337, 'char_ngram_1_freq_s': 60.30235279980678, 'char_ngram_1_freq_r': 53.6374784454334, 'char_ngram_1_freq_h': 48.34450283911489, 'char_ngram_1_freq_l': 39.63803184984104, 'char_ngram_2_freq_th': 29.684835563695785, 'char_ngram_2_freq_he': 22.455684528293894, 'char_ngram_2_freq_in': 17.79711461248912, 'char_ngram_2_freq_er': 15.772253309397636, 'char_ngram_2_freq_an': 15.215604296608596, 'char_ngram_2_freq_re': 14.78743026304697, 'char_ngram_2_freq_on': 11.626843312837485, 'char_ngram_2_freq_to': 11.549257403804715, 'char_ngram_2_freq_es': 11.418277817095687, 'char_ngram_2_freq_en': 11.301642800508642, 'char_ngram_3_freq_the': 17.719016397380567, 'char_ngram_3_freq_ing': 7.585943755737472, 'char_ngram_3_freq_and': 6.437922762800636, 'char_ngram_3_freq_tha': 5.487310377732947, 'char_ngram_3_freq_ent': 4.80799252124206, 'char_ngram_3_freq_hat': 4.608193151685916, 'char_ngram_3_freq_eth': 3.920336860598614, 'char_ngram_3_freq_ple': 3.8828815941690005, 'char_ngram_3_freq_thi': 3.7961880215667194, 'char_ngram_3_freq_her': 3.714105203646503, 'comma_per_1000': 37.13759654874447, 'semicolon_per_1000': 0.4768458605311862, 'quotation_marks_per_1000': 7.356709132864403, 'parentheses_per_1000': 0.783833300803017, 'irregularity_all_caps_per_1000': 13.269024441694963, 'irregularity_mid_sentence_cap_per_1000': 10.207272663855441}
+{'connective_freq_however_per_1000': 1.0922541454652221, 'connective_freq_therefore_per_1000': 0.6591271188404523, 'connective_freq_moreover_per_1000': 0.33016081124954877, 'connective_freq_thus_per_1000': 0.3994420234509736, 'connective_freq_consequently_per_1000': 0.0704757158600701, 'connective_freq_furthermore_per_1000': 0.17845884660160125, 'connective_freq_nevertheless_per_1000': 0.08313745464170982, 'total_connectives_per_1000': 2.813056116109578, 'avg_lexical_overlap_jaccard': np.float64(0.07767890015421973)}
+
+
+CELL (non-native)
+
+TTR                 : 0.3487
+MSTTR               : 0.7689
+MTLD                : 63.5725
+LexicalDensity      : 0.6132
+AvgLogFreq          : -7.5960
+"freq_articles_per_1000": 77.79154948725785,
+"freq_prepositions_per_1000": 54.25109416517539,
+"freq_pronouns_per_1000": 31.685565561473936,
+"freq_determiners_per_1000": 91.31127867229291,
+"freq_auxiliaries_per_1000": 58.45065808671526,
+"ratio_definite_indefinite_article": 3.5797822624172295,
+"ratio_preposition_variety": 0.001311104595149332
+{'mean_sentence_length': np.float64(23.97248380750271), 'variance_sentence_length': np.float64(171.61654175164995), 'pos_ngram_1_freq_NOUN': 216.32805589411893, 'pos_ngram_1_freq_PUNCT': 114.11846585794139, 'pos_ngram_1_freq_VERB': 109.03267644480243, 'pos_ngram_1_freq_ADP': 104.8302896440178, 'pos_ngram_1_freq_DET': 90.0768666317947, 'pos_ngram_2_freq_NOUN_PUNCT': 60.623043206733044, 'pos_ngram_2_freq_DET_NOUN': 58.90856898228653, 'pos_ngram_2_freq_NOUN_ADP': 51.29267944634263, 'pos_ngram_2_freq_ADJ_NOUN': 50.64395946952503, 'pos_ngram_2_freq_ADP_DET': 37.18889854310034, 'pos_ngram_3_freq_ADP_DET_NOUN': 24.22648672487011, 'pos_ngram_3_freq_DET_NOUN_ADP': 18.97955471621037, 'pos_ngram_3_freq_DET_ADJ_NOUN': 18.536470211788398, 'pos_ngram_3_freq_NOUN_ADP_DET': 16.116564882486934, 'pos_ngram_3_freq_ADJ_NOUN_PUNCT': 15.682471166656255, 'subordination_index': 0.4476147843579371, 'mean_parse_tree_depth': np.float64(5.692270707606605), 'average_dependency_length': np.float64(3.2389031452084533), 'nsubj_per_1000': 62.40483307909381, 'obj_omission_per_1000': 28.159034601395692, 'aux_usage_per_1000': 41.08582906482197}
+{'char_ngram_1_freq_e': 119.8816612719054, 'char_ngram_1_freq_t': 89.6230942230309, 'char_ngram_1_freq_a': 74.01797508618199, 'char_ngram_1_freq_o': 72.62532956365983, 'char_ngram_1_freq_i': 70.84331151669257, 'char_ngram_1_freq_n': 70.54353934755682, 'char_ngram_1_freq_s': 66.8109441538303, 'char_ngram_1_freq_r': 55.80244873504377, 'char_ngram_1_freq_h': 44.635734649626976, 'char_ngram_1_freq_l': 37.453149304410104, 'char_ngram_2_freq_th': 23.923294867591256, 'char_ngram_2_freq_he': 22.75050904044997, 'char_ngram_2_freq_in': 18.65976340687356, 'char_ngram_2_freq_er': 15.809417986209676, 'char_ngram_2_freq_re': 15.034839228350696, 'char_ngram_2_freq_an': 14.26432636896794, 'char_ngram_2_freq_on': 14.1006363080919, 'char_ngram_2_freq_ti': 13.627737177913076, 'char_ngram_2_freq_es': 13.527545408054575, 'char_ngram_2_freq_nt': 12.998326054538456, 'char_ngram_3_freq_the': 17.317063180448187, 'char_ngram_3_freq_ing': 7.541036962731673, 'char_ngram_3_freq_ent': 6.638256912177998, 'char_ngram_3_freq_and': 6.5648699544960705, 'char_ngram_3_freq_ion': 5.968939748203425, 'char_ngram_3_freq_tio': 5.288278225517418, 'char_ngram_3_freq_ati': 4.5666565404042885, 'char_ngram_3_freq_her': 3.953258029547135, 'char_ngram_3_freq_pos': 3.7144743375547065, 'char_ngram_3_freq_ere': 3.2696349264895597, 'comma_per_1000': 44.94413912210192, 'semicolon_per_1000': 22.291386572650428, 'quotation_marks_per_1000': 0.005140023170330535, 'parentheses_per_1000': 10.352453623582248, 'irregularity_all_caps_per_1000': 7.696849478667563, 'irregularity_mid_sentence_cap_per_1000': 28.515507673384153}
+{'connective_freq_however_per_1000': 1.1102450047913954, 'connective_freq_therefore_per_1000': 1.062420441380494, 'connective_freq_moreover_per_1000': 0.5388085158116052, 'connective_freq_thus_per_1000': 0.49187786947380463, 'connective_freq_consequently_per_1000': 0.050506314630204385, 'connective_freq_furthermore_per_1000': 0.2621411816868573, 'connective_freq_nevertheless_per_1000': 0.08313428779838952, 'total_connectives_per_1000': 3.5991336155727502, 'avg_lexical_overlap_jaccard': np.float64(0.0711586233540578)}
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+BAWE (native)
+
+TTR                 : 0.3157
+MSTTR               : 0.7788
+MTLD                : 72.3170
+LexicalDensity      : 0.6041
+AvgLogFreq          : -7.6557
+"freq_articles_per_1000": 85.23668967291182,
+"freq_prepositions_per_1000": 60.565336016727876,
+"freq_pronouns_per_1000": 24.933804340682755,
+"freq_determiners_per_1000": 103.2419090072029,
+"freq_auxiliaries_per_1000": 62.369560808495095,
+"ratio_definite_indefinite_article": 2.9456082274588824,
+"ratio_preposition_variety": 0.0012932104685328591
+{'mean_sentence_length': np.float64(23.9137176541113), 'variance_sentence_length': np.float64(197.93869050182408), 'pos_ngram_1_freq_NOUN': 219.2174940937853, 'pos_ngram_1_freq_ADP': 111.85668774019675, 'pos_ngram_1_freq_PUNCT': 100.17029284018042, 'pos_ngram_1_freq_VERB': 98.53198324590296, 'pos_ngram_1_freq_DET': 96.05557885917723, 'pos_ngram_2_freq_DET_NOUN': 58.406349800545144, 'pos_ngram_2_freq_NOUN_ADP': 57.151018052600826, 'pos_ngram_2_freq_ADJ_NOUN': 51.3319830230795, 'pos_ngram_2_freq_NOUN_PUNCT': 50.63287437268229, 'pos_ngram_2_freq_ADP_DET': 41.942619613033614, 'pos_ngram_3_freq_ADP_DET_NOUN': 25.506463830458074, 'pos_ngram_3_freq_DET_NOUN_ADP': 21.057236108766823, 'pos_ngram_3_freq_NOUN_ADP_DET': 20.324007613878113, 'pos_ngram_3_freq_DET_ADJ_NOUN': 19.479367381874315, 'pos_ngram_3_freq_NOUN_ADP_NOUN': 16.494229150546783, 'subordination_index': 0.5076797548872681, 'mean_parse_tree_depth': np.float64(5.727085622939355), 'average_dependency_length': np.float64(3.3037603581935793), 'nsubj_per_1000': 57.06202792758014, 'obj_omission_per_1000': 27.681290571280392, 'aux_usage_per_1000': 35.52683546658957}
+{'char_ngram_1_freq_e': 118.45839864422281, 'char_ngram_1_freq_t': 86.21953805481654, 'char_ngram_1_freq_a': 73.42946751220579, 'char_ngram_1_freq_i': 72.55389946540085, 'char_ngram_1_freq_o': 69.1864682281202, 'char_ngram_1_freq_n': 66.72282756205036, 'char_ngram_1_freq_s': 63.56671514019699, 'char_ngram_1_freq_r': 57.67018646503139, 'char_ngram_1_freq_h': 42.95203342983894, 'char_ngram_1_freq_l': 38.27997261775788, 'char_ngram_2_freq_th': 24.403167437965628, 'char_ngram_2_freq_he': 20.975698640675965, 'char_ngram_2_freq_in': 17.874569907147283, 'char_ngram_2_freq_er': 16.095546184243155, 'char_ngram_2_freq_re': 15.378444415251062, 'char_ngram_2_freq_an': 14.083800803778713, 'char_ngram_2_freq_es': 13.571380838001948, 'char_ngram_2_freq_on': 13.48205517823194, 'char_ngram_2_freq_ti': 13.427710835120328, 'char_ngram_2_freq_at': 12.068493357127124, 'char_ngram_3_freq_the': 16.232122499760628, 'char_ngram_3_freq_and': 6.209655604522971, 'char_ngram_3_freq_ion': 6.207524453812712, 'char_ngram_3_freq_ing': 5.902648122205053, 'char_ngram_3_freq_tio': 5.305134353068651, 'char_ngram_3_freq_ent': 4.998553100892785, 'char_ngram_3_freq_ati': 4.177177172148722, 'char_ngram_3_freq_ere': 3.6348602064080353, 'char_ngram_3_freq_RB-': 3.6004573449424213, 'char_ngram_3_freq_her': 3.4674735406222443, 'comma_per_1000': 39.033388950020445, 'semicolon_per_1000': 1.8913724979203805, 'quotation_marks_per_1000': 13.910343036151035, 'parentheses_per_1000': 0.0, 'irregularity_all_caps_per_1000': 10.580973439946273, 'irregularity_mid_sentence_cap_per_1000': 33.918217748516284}
+{'connective_freq_however_per_1000': 1.712311827303544, 'connective_freq_therefore_per_1000': 1.0928777946961297, 'connective_freq_moreover_per_1000': 0.14768618847244994, 'connective_freq_thus_per_1000': 0.6263590309185628, 'connective_freq_consequently_per_1000': 0.11277854392441633, 'connective_freq_furthermore_per_1000': 0.18527903644725538, 'connective_freq_nevertheless_per_1000': 0.0835239592222181, 'total_connectives_per_1000': 3.9608163809845762, 'avg_lexical_overlap_jaccard': np.float64(0.06756964520723228)}
+
+
+PELIC (non-native)
+
+TTR                 : 0.7853
+MSTTR               : 0.8545
+MTLD                : 24.5935
+LexicalDensity      : 0.6354
+AvgLogFreq          : -7.4386
+"freq_articles_per_1000": 61.89618786819605,
+"freq_prepositions_per_1000": 44.907061261861095,
+"freq_pronouns_per_1000": 62.25281301465585,
+"freq_determiners_per_1000": 79.48143891004945,
+"freq_auxiliaries_per_1000": 71.89134750570202,
+"ratio_definite_indefinite_article": 1.8754192994773384,
+"ratio_preposition_variety": 0.0019612088708267058
+{'mean_sentence_length': np.float64(16.78207709220833), 'variance_sentence_length': np.float64(100.64436407925675), 'pos_ngram_1_freq_NOUN': 188.01980050060112, 'pos_ngram_1_freq_VERB': 116.24452115661093, 'pos_ngram_1_freq_PUNCT': 114.02381243363514, 'pos_ngram_1_freq_PRON': 100.53865697481253, 'pos_ngram_1_freq_ADP': 88.19435786860275, 'pos_ngram_2_freq_NOUN_PUNCT': 61.29856188229629, 'pos_ngram_2_freq_DET_NOUN': 48.1382833356568, 'pos_ngram_2_freq_ADJ_NOUN': 42.30052977250223, 'pos_ngram_2_freq_NOUN_ADP': 35.78129212575746, 'pos_ngram_2_freq_PRON_VERB': 30.65224925572071, 'pos_ngram_3_freq_ADP_DET_NOUN': 16.833414296672192, 'pos_ngram_3_freq_DET_ADJ_NOUN': 15.340044999648919, 'pos_ngram_3_freq_NOUN_PUNCT_PRON': 14.689677041233164, 'pos_ngram_3_freq_ADJ_NOUN_PUNCT': 14.39878221312212, 'pos_ngram_3_freq_VERB_DET_NOUN': 14.244839278048575, 'subordination_index': 0.38953895836196234, 'mean_parse_tree_depth': np.float64(4.352318950116806), 'average_dependency_length': np.float64(2.8668272233987677), 'nsubj_per_1000': 91.30412798389823, 'obj_omission_per_1000': 28.101034058441407, 'aux_usage_per_1000': 48.51147212640026}
+{'char_ngram_1_freq_e': 119.45491906324543, 'char_ngram_1_freq_t': 83.61305258721973, 'char_ngram_1_freq_a': 74.73743525321223, 'char_ngram_1_freq_o': 73.88322337932865, 'char_ngram_1_freq_i': 66.2876928554876, 'char_ngram_1_freq_n': 65.51067498125546, 'char_ngram_1_freq_s': 60.398585703343, 'char_ngram_1_freq_r': 54.6715090129252, 'char_ngram_1_freq_h': 47.870948456258496, 'char_ngram_1_freq_l': 38.18512752192284, 'char_ngram_2_freq_th': 23.48467152850377, 'char_ngram_2_freq_he': 21.011386038011043, 'char_ngram_2_freq_in': 17.283454417635646, 'char_ngram_2_freq_an': 15.304877316935583, 'char_ngram_2_freq_er': 15.201062928035599, 'char_ngram_2_freq_re': 14.299611403867004, 'char_ngram_2_freq_es': 12.125766823650027, 'char_ngram_2_freq_en': 11.274324701248963, 'char_ngram_2_freq_st': 10.718527903758728, 'char_ngram_2_freq_on': 10.565063154950055, 'char_ngram_3_freq_the': 14.524935816138562, 'char_ngram_3_freq_ing': 6.870676302529491, 'char_ngram_3_freq_and': 6.290618533720237, 'char_ngram_3_freq_ent': 4.276547580688759, 'char_ngram_3_freq_her': 3.9191983477509154, 'char_ngram_3_freq_ion': 3.4919898274208885, 'char_ngram_3_freq_tha': 3.4534697651363584, 'char_ngram_3_freq_ere': 3.1705447803674267, 'char_ngram_3_freq_eth': 2.9374240305895456, 'char_ngram_3_freq_for': 2.9134708094352506, 'comma_per_1000': 45.825022735782326, 'semicolon_per_1000': 0.9865799136019306, 'quotation_marks_per_1000': 12.498495811542691, 'parentheses_per_1000': 3.471058994795403, 'irregularity_all_caps_per_1000': 24.21607148322835, 'irregularity_mid_sentence_cap_per_1000': 38.84181472004065}
+{'connective_freq_however_per_1000': 1.2593254443278363, 'connective_freq_therefore_per_1000': 0.5542960670555683, 'connective_freq_moreover_per_1000': 0.37568023909363785, 'connective_freq_thus_per_1000': 0.19056547842417235, 'connective_freq_consequently_per_1000': 0.10796614014130776, 'connective_freq_furthermore_per_1000': 0.23018800364107944, 'connective_freq_nevertheless_per_1000': 0.04884681680179555, 'total_connectives_per_1000': 2.7668681894853977, 'avg_lexical_overlap_jaccard': np.float64(0.07503927653089502)}

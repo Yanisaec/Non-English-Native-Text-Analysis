@@ -1,0 +1,71 @@
+======================================================================
+Experiment Timestamp: 2025-10-09 04:15:36
+Number of train samples: 48765, test samples: 16915
+----------------------------------------------------------------------
+LR - Char ngrams          | Acc: 0.8783 | Prec: 0.8062 | Rec: 0.9082 | F1: 0.8374
+  → Per-class metrics:
+     Class 0: Acc=0.9577, Prec=0.6244, Rec=0.9577, F1=0.7560
+     Class 1: Acc=0.8588, Prec=0.9881, Rec=0.8588, F1=0.9189
+  → Confusion Matrix:
+      3189   141
+      1918 11667
+----------------------------------------------------------------------
+LR - Word ngrams          | Acc: 0.8904 | Prec: 0.8189 | Rec: 0.9094 | F1: 0.8498
+  → Per-class metrics:
+     Class 0: Acc=0.9408, Prec=0.6541, Rec=0.9408, F1=0.7717
+     Class 1: Acc=0.8780, Prec=0.9838, Rec=0.8780, F1=0.9279
+  → Confusion Matrix:
+      3133   197
+      1657 11928
+----------------------------------------------------------------------
+LR - Interpretable        | Acc: 0.7236 | Prec: 0.6543 | Rec: 0.7269 | F1: 0.6590
+  → Per-class metrics:
+     Class 0: Acc=0.7324, Prec=0.3919, Rec=0.7324, F1=0.5106
+     Class 1: Acc=0.7215, Prec=0.9167, Rec=0.7215, F1=0.8074
+  → Confusion Matrix:
+      2439   891
+      3784  9801
+----------------------------------------------------------------------
+LR - Combined             | Acc: 0.9091 | Prec: 0.8422 | Rec: 0.9211 | F1: 0.8719
+  → Per-class metrics:
+     Class 0: Acc=0.9408, Prec=0.7003, Rec=0.9408, F1=0.8029
+     Class 1: Acc=0.9013, Prec=0.9842, Rec=0.9013, F1=0.9409
+  → Confusion Matrix:
+      3133   197
+      1341 12244
+----------------------------------------------------------------------
+SVM - Word ngrams         | Acc: 0.9280 | Prec: 0.8681 | Rec: 0.9395 | F1: 0.8967
+  → Per-class metrics:
+     Class 0: Acc=0.9586, Prec=0.7472, Rec=0.9586, F1=0.8398
+     Class 1: Acc=0.9205, Prec=0.9891, Rec=0.9205, F1=0.9536
+  → Confusion Matrix:
+      3192   138
+      1080 12505
+----------------------------------------------------------------------
+SVM - Interpretable       | Acc: 0.7633 | Prec: 0.6897 | Rec: 0.7731 | F1: 0.7024
+  → Per-class metrics:
+     Class 0: Acc=0.7892, Prec=0.4432, Rec=0.7892, F1=0.5677
+     Class 1: Acc=0.7570, Prec=0.9361, Rec=0.7570, F1=0.8371
+  → Confusion Matrix:
+      2628   702
+      3301 10284
+----------------------------------------------------------------------
+SVM - Combined            | Acc: 0.9497 | Prec: 0.9045 | Rec: 0.9506 | F1: 0.9249
+  → Per-class metrics:
+     Class 0: Acc=0.9520, Prec=0.8212, Rec=0.9520, F1=0.8818
+     Class 1: Acc=0.9492, Prec=0.9877, Rec=0.9492, F1=0.9681
+  → Confusion Matrix:
+      3170   160
+       690 12895
+----------------------------------------------------------------------
+Transformer (DistilBERT) Results:
+  eval_loss      : 0.1612
+  eval_accuracy  : 0.9743
+  eval_precision : 0.9593
+  eval_recall    : 0.9594
+  eval_f1        : 0.9593
+  eval_runtime   : 1080.0132
+  eval_samples_per_second: 15.6620
+  eval_steps_per_second: 0.9800
+  epoch          : 2.0000
+======================================================================

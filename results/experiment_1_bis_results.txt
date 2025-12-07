@@ -1,0 +1,6 @@
+Experiment 1 bis - Logistic Regression on texts WITHOUT commas and semicolons,
+with semicolon_rate and comma_rate zeroed out in interpretable features
+
+LR - Char ngrams (no commas/semicolons) | Acc: 0.8740 | Prec: 0.8017 | Rec: 0.9048 | F1: 0.8325
+LR - Word ngrams (no commas/semicolons) | Acc: 0.8864 | Prec: 0.8145 | Rec: 0.9086 | F1: 0.8456
+LR - Interpretable Features (no ;, rates) | Acc: 0.7215 | Prec: 0.6543 | Rec: 0.7282 | F1: 0.6582

@@ -1,0 +1,352 @@
+Datasets Metrics:
+
+=== asap2.pkl ===
+Number of texts            : 24728
+Average length (words)     : 362.29
+Median length (words)      : 338.00
+Average length (chars)     : 2013.53
+Median length (chars)      : 1865.00
+Total number of words      : 8,958,819
+Number of different prompts: 7
+
+=== persuade.pkl ===
+Number of texts            : 25996
+Average length (words)     : 410.37
+Median length (words)      : 373.00
+Average length (chars)     : 2284.69
+Median length (chars)      : 2058.00
+Total number of words      : 10,668,033
+Number of different prompts: 15
+
+=== toefl11.pkl ===
+Number of texts            : 12100
+Average length (words)     : 314.76
+Median length (words)      : 315.00
+Average length (chars)     : 1778.76
+Median length (chars)      : 1777.00
+Total number of words      : 3,808,586
+Number of different prompts: 8
+
+=== cell.pkl ===
+Number of texts            : 2856
+Average length (words)     : 1305.01
+Median length (words)      : 1298.00
+Average length (chars)     : 8300.65
+Median length (chars)      : 8295.50
+Total number of words      : 3,727,117
+Number of different prompts: 0
+
+
+ASAP2 (native)
+TTR,MSTTR,MTLD,LexicalDensity,AvgLogFreq,articles_rate,prepositions_rate,pronouns_rate,auxiliaries_rate,mean_sent_len,subordination_index,avg_dep_depth,error_rate_per_1k,comma_rate,semicolon_rate,uppercase_ratio,connective_rate,lexical_overlap
+0.46563501400671775,0.7873230706035766,1.0,0.4177784957339428,5.863442491422346,0.07595004330555767,0.09125007188301645,0.05136063430992958,0.0618524570263245,20.482493087824828,0.5220708827664327,2.809127161304735,45.28486410346513,0.005714387443164049,7.898027291308295e-05,0.01863620903042959,0.12192315208645234,4.511417291175532
+
+TTR                 : 0.4724
+MSTTR               : 0.7782
+MTLD                : 61.5857
+LexicalDensity      : 0.5752
+AvgLogFreq          : -7.2185
+"freq_articles_per_1000": 76.69894914054288,
+"freq_prepositions_per_1000": 44.85308015681563,
+"freq_pronouns_per_1000": 54.20526358197145,
+"freq_determiners_per_1000": 98.98350293393055,
+"freq_auxiliaries_per_1000": 89.39281473953437,
+"ratio_definite_indefinite_article": 2.0649799613295867,
+"ratio_preposition_variety": 0.0018528035616703178
+{'mean_sentence_length': np.float64(20.968943240951116), 'variance_sentence_length': np.float64(132.74829052174465), 'pos_ngram_1_freq_NOUN': 183.88955276286865, 'pos_ngram_1_freq_VERB': 124.64980175988408, 'pos_ngram_1_freq_DET': 91.32976365975361, 'pos_ngram_1_freq_PUNCT': 90.3970334786222, 'pos_ngram_1_freq_ADP': 88.64182302213766, 'pos_ngram_2_freq_DET_NOUN': 63.14163897270256, 'pos_ngram_2_freq_NOUN_PUNCT': 43.030218660315846, 'pos_ngram_2_freq_ADJ_NOUN': 36.66638238701831, 'pos_ngram_2_freq_NOUN_ADP': 34.94602448226984, 'pos_ngram_2_freq_PRON_AUX': 30.688620512034916, 'pos_ngram_3_freq_ADP_DET_NOUN': 21.64333476405222, 'pos_ngram_3_freq_DET_ADJ_NOUN': 15.693734549783924, 'pos_ngram_3_freq_VERB_DET_NOUN': 15.354795980751804, 'pos_ngram_3_freq_DET_NOUN_ADP': 13.243969659705277, 'pos_ngram_3_freq_NOUN_ADP_DET': 11.630066827021691, 'subordination_index': 0.6865698520558272, 'mean_parse_tree_depth': np.float64(5.228541812813452), 'average_dependency_length': np.float64(3.0846430536524014), 'nsubj_per_1000': 96.36890337494535, 'obj_omission_per_1000': 34.424634302860085, 'aux_usage_per_1000': 63.95982509411687}
+{'char_ngram_1_freq_e': 121.6912292738775, 'char_ngram_1_freq_t': 90.95189269189864, 'char_ngram_1_freq_a': 78.70590790008677, 'char_ngram_1_freq_o': 76.35296021588974, 'char_ngram_1_freq_s': 65.8487338535748, 'char_ngram_1_freq_n': 64.57079490974391, 'char_ngram_1_freq_i': 60.92556536780567, 'char_ngram_1_freq_r': 54.66449183056016, 'char_ngram_1_freq_h': 50.06403890777291, 'char_ngram_1_freq_l': 42.355138772342514, 'char_ngram_2_freq_th': 28.84039352256385, 'char_ngram_2_freq_he': 22.66809430059595, 'char_ngram_2_freq_in': 16.285742370132745, 'char_ngram_2_freq_an': 15.136620415909258, 'char_ngram_2_freq_er': 14.13973894721837, 'char_ngram_2_freq_re': 13.909934137143516, 'char_ngram_2_freq_es': 12.766735365797663, 'char_ngram_2_freq_st': 11.676062009556787, 'char_ngram_2_freq_en': 11.662404422590999, 'char_ngram_2_freq_on': 11.526636259689177, 'char_ngram_3_freq_the': 16.995349469258336, 'char_ngram_3_freq_ing': 8.357170473021467, 'char_ngram_3_freq_and': 6.102028734192322, 'char_ngram_3_freq_tha': 5.174658998445581, 'char_ngram_3_freq_hat': 4.8926224848133995, 'char_ngram_3_freq_ent': 4.363574559606458, 'char_ngram_3_freq_eth': 3.760168660919123, 'char_ngram_3_freq_her': 3.6541632681793006, 'char_ngram_3_freq_ion': 3.6174003727982766, 'char_ngram_3_freq_oul': 3.6108897668253395, 'comma_per_1000': 29.797694261236206, 'semicolon_per_1000': 0.43734660437419004, 'quotation_marks_per_1000': 18.605281666699852, 'parentheses_per_1000': 1.7117760173965195, 'irregularity_all_caps_per_1000': 8.339452565542155, 'irregularity_mid_sentence_cap_per_1000': 28.64132530200447}
+{'connective_freq_however_per_1000': 0.37007024697563107, 'connective_freq_therefore_per_1000': 0.17357099083694, 'connective_freq_moreover_per_1000': 0.008849505905939003, 'connective_freq_thus_per_1000': 0.043543591559904414, 'connective_freq_consequently_per_1000': 0.0026146267449365236, 'connective_freq_furthermore_per_1000': 0.057722913522829405, 'connective_freq_nevertheless_per_1000': 0.011765820352214356, 'total_connectives_per_1000': 0.6681376958983948, 'avg_lexical_overlap_jaccard': np.float64(0.0761060915050387)}
+
+
+PERSUADE (native)
+TTR,MSTTR,MTLD,LexicalDensity,AvgLogFreq,articles_rate,prepositions_rate,pronouns_rate,auxiliaries_rate,mean_sent_len,subordination_index,avg_dep_depth,error_rate_per_1k,comma_rate,semicolon_rate,uppercase_ratio,connective_rate,lexical_overlap
+0.39919832670500566,0.774671445977941,1.0,0.43970134165983693,6.046316306504442,0.05627697364946328,0.09619546048592328,0.06683072194807758,0.062088692609934076,22.082685475917415,0.6630474777814406,2.8387553157249017,22.005858642485858,0.005538109187472527,8.617234480553355e-05,0.014259338765177444,0.18871272096134836,5.363080716643787
+
+TTR                 : 0.4357
+MSTTR               : 0.7719
+MTLD                : 59.8059
+LexicalDensity      : 0.5691
+AvgLogFreq          : -7.0023
+"freq_articles_per_1000": 66.67776779657318,
+"freq_prepositions_per_1000": 41.96439390420597,
+"freq_pronouns_per_1000": 65.35989781073094,
+"freq_determiners_per_1000": 88.01724167943848,
+"freq_auxiliaries_per_1000": 90.45530115324662,
+"ratio_definite_indefinite_article": 1.692539278684927,
+"ratio_preposition_variety": 0.0013113165985116637
+{'mean_sentence_length': np.float64(21.773032630440014), 'variance_sentence_length': np.float64(144.2870355836232), 'pos_ngram_1_freq_NOUN': 187.8431535995081, 'pos_ngram_1_freq_VERB': 134.0039167896499, 'pos_ngram_1_freq_PRON': 100.23603331734805, 'pos_ngram_1_freq_ADP': 89.42883581982768, 'pos_ngram_1_freq_PUNCT': 84.77051885144851, 'pos_ngram_2_freq_DET_NOUN': 56.125830664149966, 'pos_ngram_2_freq_NOUN_PUNCT': 44.12142385394418, 'pos_ngram_2_freq_ADJ_NOUN': 36.692735850234605, 'pos_ngram_2_freq_NOUN_ADP': 33.823398886519406, 'pos_ngram_2_freq_PRON_AUX': 32.39552218406076, 'pos_ngram_3_freq_ADP_DET_NOUN': 19.44710022236539, 'pos_ngram_3_freq_VERB_DET_NOUN': 15.569880069831303, 'pos_ngram_3_freq_DET_ADJ_NOUN': 14.518715106706026, 'pos_ngram_3_freq_PRON_AUX_VERB': 12.7094019488104, 'pos_ngram_3_freq_DET_NOUN_ADP': 11.659249424850184, 'subordination_index': 0.7245085594514016, 'mean_parse_tree_depth': np.float64(5.310574261208849), 'average_dependency_length': np.float64(3.0986175070380373), 'nsubj_per_1000': 96.89810576007014, 'obj_omission_per_1000': 35.037313445428346, 'aux_usage_per_1000': 68.4600395323746}
+{'char_ngram_1_freq_e': 122.26253314998718, 'char_ngram_1_freq_t': 94.30874049935578, 'char_ngram_1_freq_o': 80.15940588265134, 'char_ngram_1_freq_a': 73.7138670601182, 'char_ngram_1_freq_n': 65.26493436319461, 'char_ngram_1_freq_s': 63.57109455474686, 'char_ngram_1_freq_i': 61.58521835130696, 'char_ngram_1_freq_r': 52.41260482167124, 'char_ngram_1_freq_h': 50.62822285915344, 'char_ngram_1_freq_l': 42.001344265864255, 'char_ngram_2_freq_th': 28.1623637024176, 'char_ngram_2_freq_he': 22.765485174973534, 'char_ngram_2_freq_in': 17.111092782057014, 'char_ngram_2_freq_an': 13.904353885834796, 'char_ngram_2_freq_er': 13.752622958409296, 'char_ngram_2_freq_re': 13.29094822763118, 'char_ngram_2_freq_es': 12.677152832017658, 'char_ngram_2_freq_en': 12.46136138190055, 'char_ngram_2_freq_st': 12.397977771552464, 'char_ngram_2_freq_ou': 11.864919557275533, 'char_ngram_3_freq_the': 17.171891818002557, 'char_ngram_3_freq_ing': 8.898176855575192, 'char_ngram_3_freq_and': 6.06923709701998, 'char_ngram_3_freq_ent': 5.941526301541926, 'char_ngram_3_freq_tha': 4.899758204859643, 'char_ngram_3_freq_hat': 4.6527877619499485, 'char_ngram_3_freq_eth': 4.034028342483923, 'char_ngram_3_freq_her': 4.009803085583894, 'char_ngram_3_freq_you': 3.698874682458881, 'char_ngram_3_freq_oul': 3.5180775492523986, 'comma_per_1000': 30.560710960913415, 'semicolon_per_1000': 0.5045232208871085, 'quotation_marks_per_1000': 15.050548251962445, 'parentheses_per_1000': 1.173400632525932, 'irregularity_all_caps_per_1000': 9.180743597444971, 'irregularity_mid_sentence_cap_per_1000': 20.00163335466429}
+{'connective_freq_however_per_1000': 0.49841087495006126, 'connective_freq_therefore_per_1000': 0.23473106272132846, 'connective_freq_moreover_per_1000': 0.020883848618244775, 'connective_freq_thus_per_1000': 0.05305855848131295, 'connective_freq_consequently_per_1000': 0.01069660538983269, 'connective_freq_furthermore_per_1000': 0.07886624132662357, 'connective_freq_nevertheless_per_1000': 0.014262140519776919, 'total_connectives_per_1000': 0.9109093320071806, 'avg_lexical_overlap_jaccard': np.float64(0.08368077256934912)}
+
+
+TOEFL11 (non-native)
+TTR,MSTTR,MTLD,LexicalDensity,AvgLogFreq,articles_rate,prepositions_rate,pronouns_rate,auxiliaries_rate,mean_sent_len,subordination_index,avg_dep_depth,error_rate_per_1k,comma_rate,semicolon_rate,uppercase_ratio,connective_rate,lexical_overlap
+0.46489929516518824,0.7755650521012794,1.0,0.452610977748103,5.942356770934165,0.06647544238284488,0.1034532381824777,0.05711946983645811,0.0588528478764244,22.484106789619112,0.5854475329380079,2.841001366514962,61.76525465345206,0.007233099325046234,9.251318263688198e-05,0.013095222561226891,0.15133595767981517,4.947090723314916
+
+TTR                 : 0.4763
+MSTTR               : 0.7746
+MTLD                : 59.4917
+LexicalDensity      : 0.5823
+AvgLogFreq          : -7.0325
+"freq_articles_per_1000": 67.58450153204757,
+"freq_prepositions_per_1000": 49.13398995359061,
+"freq_pronouns_per_1000": 59.93346194967239,
+"freq_determiners_per_1000": 88.29874031644398,
+"freq_auxiliaries_per_1000": 80.930099209786,
+"ratio_definite_indefinite_article": 1.9835885752858289,
+"ratio_preposition_variety": 0.002949474224160041
+{'mean_sentence_length': np.float64(22.07383070581169), 'variance_sentence_length': np.float64(172.76878066289018), 'pos_ngram_1_freq_NOUN': 191.1786183730101, 'pos_ngram_1_freq_VERB': 123.65334578628978, 'pos_ngram_1_freq_PRON': 96.93142842790417, 'pos_ngram_1_freq_ADP': 92.31668711667857, 'pos_ngram_1_freq_PUNCT': 85.98865652259254, 'pos_ngram_2_freq_DET_NOUN': 55.99853578535023, 'pos_ngram_2_freq_NOUN_PUNCT': 50.41098477272579, 'pos_ngram_2_freq_ADJ_NOUN': 48.38768943393313, 'pos_ngram_2_freq_NOUN_ADP': 38.45354188314376, 'pos_ngram_2_freq_ADP_DET': 30.87037049095843, 'pos_ngram_3_freq_ADP_DET_NOUN': 21.600421961731346, 'pos_ngram_3_freq_DET_ADJ_NOUN': 16.72683838474984, 'pos_ngram_3_freq_VERB_DET_NOUN': 15.302391953703282, 'pos_ngram_3_freq_DET_NOUN_ADP': 14.064693356800458, 'pos_ngram_3_freq_ADJ_NOUN_PUNCT': 12.959555488990947, 'subordination_index': 0.6755904865064657, 'mean_parse_tree_depth': np.float64(5.330754580409349), 'average_dependency_length': np.float64(3.0610301430969478), 'nsubj_per_1000': 90.89503143782343, 'obj_omission_per_1000': 30.723042031518755, 'aux_usage_per_1000': 57.7560119779084}
+{'char_ngram_1_freq_e': 126.03930537443797, 'char_ngram_1_freq_t': 92.80492870321727, 'char_ngram_1_freq_o': 78.35414045485835, 'char_ngram_1_freq_a': 72.46558057399115, 'char_ngram_1_freq_n': 68.49532233245215, 'char_ngram_1_freq_i': 65.13288678838337, 'char_ngram_1_freq_s': 60.30235279980678, 'char_ngram_1_freq_r': 53.6374784454334, 'char_ngram_1_freq_h': 48.34450283911489, 'char_ngram_1_freq_l': 39.63803184984104, 'char_ngram_2_freq_th': 29.684835563695785, 'char_ngram_2_freq_he': 22.455684528293894, 'char_ngram_2_freq_in': 17.79711461248912, 'char_ngram_2_freq_er': 15.772253309397636, 'char_ngram_2_freq_an': 15.215604296608596, 'char_ngram_2_freq_re': 14.78743026304697, 'char_ngram_2_freq_on': 11.626843312837485, 'char_ngram_2_freq_to': 11.549257403804715, 'char_ngram_2_freq_es': 11.418277817095687, 'char_ngram_2_freq_en': 11.301642800508642, 'char_ngram_3_freq_the': 17.719016397380567, 'char_ngram_3_freq_ing': 7.585943755737472, 'char_ngram_3_freq_and': 6.437922762800636, 'char_ngram_3_freq_tha': 5.487310377732947, 'char_ngram_3_freq_ent': 4.80799252124206, 'char_ngram_3_freq_hat': 4.608193151685916, 'char_ngram_3_freq_eth': 3.920336860598614, 'char_ngram_3_freq_ple': 3.8828815941690005, 'char_ngram_3_freq_thi': 3.7961880215667194, 'char_ngram_3_freq_her': 3.714105203646503, 'comma_per_1000': 37.13759654874447, 'semicolon_per_1000': 0.4768458605311862, 'quotation_marks_per_1000': 7.356709132864403, 'parentheses_per_1000': 0.783833300803017, 'irregularity_all_caps_per_1000': 13.269024441694963, 'irregularity_mid_sentence_cap_per_1000': 10.207272663855441}
+{'connective_freq_however_per_1000': 1.0922541454652221, 'connective_freq_therefore_per_1000': 0.6591271188404523, 'connective_freq_moreover_per_1000': 0.33016081124954877, 'connective_freq_thus_per_1000': 0.3994420234509736, 'connective_freq_consequently_per_1000': 0.0704757158600701, 'connective_freq_furthermore_per_1000': 0.17845884660160125, 'connective_freq_nevertheless_per_1000': 0.08313745464170982, 'total_connectives_per_1000': 2.813056116109578, 'avg_lexical_overlap_jaccard': np.float64(0.07767890015421973)}
+
+
+CELL (non-native)
+TTR,MSTTR,MTLD,LexicalDensity,AvgLogFreq,articles_rate,prepositions_rate,pronouns_rate,auxiliaries_rate,mean_sent_len,subordination_index,avg_dep_depth,error_rate_per_1k,comma_rate,semicolon_rate,uppercase_ratio,connective_rate,lexical_overlap
+0.34655382236746374,0.7784767539316796,1.0,0.4437708385659193,5.774376065773838,0.07874629938285256,0.1055932344907831,0.02632742860195847,0.045107122232332916,21.442818070733587,0.35300225928820517,2.9313517554089246,32.44206866864093,0.00845729707811481,0.003916099719562267,0.017532792993814477,0.12454864083079757,5.202370524617065
+
+TTR                 : 0.3487
+MSTTR               : 0.7689
+MTLD                : 63.5725
+LexicalDensity      : 0.6132
+AvgLogFreq          : -7.5960
+"freq_articles_per_1000": 77.79154948725785,
+"freq_prepositions_per_1000": 54.25109416517539,
+"freq_pronouns_per_1000": 31.685565561473936,
+"freq_determiners_per_1000": 91.31127867229291,
+"freq_auxiliaries_per_1000": 58.45065808671526,
+"ratio_definite_indefinite_article": 3.5797822624172295,
+"ratio_preposition_variety": 0.001311104595149332
+{'mean_sentence_length': np.float64(23.97248380750271), 'variance_sentence_length': np.float64(171.61654175164995), 'pos_ngram_1_freq_NOUN': 216.32805589411893, 'pos_ngram_1_freq_PUNCT': 114.11846585794139, 'pos_ngram_1_freq_VERB': 109.03267644480243, 'pos_ngram_1_freq_ADP': 104.8302896440178, 'pos_ngram_1_freq_DET': 90.0768666317947, 'pos_ngram_2_freq_NOUN_PUNCT': 60.623043206733044, 'pos_ngram_2_freq_DET_NOUN': 58.90856898228653, 'pos_ngram_2_freq_NOUN_ADP': 51.29267944634263, 'pos_ngram_2_freq_ADJ_NOUN': 50.64395946952503, 'pos_ngram_2_freq_ADP_DET': 37.18889854310034, 'pos_ngram_3_freq_ADP_DET_NOUN': 24.22648672487011, 'pos_ngram_3_freq_DET_NOUN_ADP': 18.97955471621037, 'pos_ngram_3_freq_DET_ADJ_NOUN': 18.536470211788398, 'pos_ngram_3_freq_NOUN_ADP_DET': 16.116564882486934, 'pos_ngram_3_freq_ADJ_NOUN_PUNCT': 15.682471166656255, 'subordination_index': 0.4476147843579371, 'mean_parse_tree_depth': np.float64(5.692270707606605), 'average_dependency_length': np.float64(3.2389031452084533), 'nsubj_per_1000': 62.40483307909381, 'obj_omission_per_1000': 28.159034601395692, 'aux_usage_per_1000': 41.08582906482197}
+{'char_ngram_1_freq_e': 119.8816612719054, 'char_ngram_1_freq_t': 89.6230942230309, 'char_ngram_1_freq_a': 74.01797508618199, 'char_ngram_1_freq_o': 72.62532956365983, 'char_ngram_1_freq_i': 70.84331151669257, 'char_ngram_1_freq_n': 70.54353934755682, 'char_ngram_1_freq_s': 66.8109441538303, 'char_ngram_1_freq_r': 55.80244873504377, 'char_ngram_1_freq_h': 44.635734649626976, 'char_ngram_1_freq_l': 37.453149304410104, 'char_ngram_2_freq_th': 23.923294867591256, 'char_ngram_2_freq_he': 22.75050904044997, 'char_ngram_2_freq_in': 18.65976340687356, 'char_ngram_2_freq_er': 15.809417986209676, 'char_ngram_2_freq_re': 15.034839228350696, 'char_ngram_2_freq_an': 14.26432636896794, 'char_ngram_2_freq_on': 14.1006363080919, 'char_ngram_2_freq_ti': 13.627737177913076, 'char_ngram_2_freq_es': 13.527545408054575, 'char_ngram_2_freq_nt': 12.998326054538456, 'char_ngram_3_freq_the': 17.317063180448187, 'char_ngram_3_freq_ing': 7.541036962731673, 'char_ngram_3_freq_ent': 6.638256912177998, 'char_ngram_3_freq_and': 6.5648699544960705, 'char_ngram_3_freq_ion': 5.968939748203425, 'char_ngram_3_freq_tio': 5.288278225517418, 'char_ngram_3_freq_ati': 4.5666565404042885, 'char_ngram_3_freq_her': 3.953258029547135, 'char_ngram_3_freq_pos': 3.7144743375547065, 'char_ngram_3_freq_ere': 3.2696349264895597, 'comma_per_1000': 44.94413912210192, 'semicolon_per_1000': 22.291386572650428, 'quotation_marks_per_1000': 0.005140023170330535, 'parentheses_per_1000': 10.352453623582248, 'irregularity_all_caps_per_1000': 7.696849478667563, 'irregularity_mid_sentence_cap_per_1000': 28.515507673384153}
+{'connective_freq_however_per_1000': 1.1102450047913954, 'connective_freq_therefore_per_1000': 1.062420441380494, 'connective_freq_moreover_per_1000': 0.5388085158116052, 'connective_freq_thus_per_1000': 0.49187786947380463, 'connective_freq_consequently_per_1000': 0.050506314630204385, 'connective_freq_furthermore_per_1000': 0.2621411816868573, 'connective_freq_nevertheless_per_1000': 0.08313428779838952, 'total_connectives_per_1000': 3.5991336155727502, 'avg_lexical_overlap_jaccard': np.float64(0.0711586233540578)}
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### Experiment 0 — Baselines
+
+* **Models**: logistic regression (LR) with L2, linear SVM, and a fine-tuned transformer (BERT) for reference.
+* **Feature sets**: (1) character n-grams; (2) bag-of-word n-grams; (3) interpretable features (A–G above); (4) interpretable + n-grams.
+* **Eval**: prompt-held-out test (report accuracy, precision, recall, macro F1).
+  **Goal:** check how strong interpretable features are vs. n-grams/transformers.
+
+======================================================================
+Experiment 0 Timestamp: 2025-10-09 04:15:36
+Number of train samples: 48765, test samples: 16915
+----------------------------------------------------------------------
+LR - Char ngrams          | Acc: 0.8783 | Prec: 0.8062 | Rec: 0.9082 | F1: 0.8374
+  → Per-class metrics:
+     Class 0: Acc=0.9577, Prec=0.6244, Rec=0.9577, F1=0.7560
+     Class 1: Acc=0.8588, Prec=0.9881, Rec=0.8588, F1=0.9189
+  → Confusion Matrix:
+      3189   141
+      1918 11667
+----------------------------------------------------------------------
+LR - Word ngrams          | Acc: 0.8904 | Prec: 0.8189 | Rec: 0.9094 | F1: 0.8498
+  → Per-class metrics:
+     Class 0: Acc=0.9408, Prec=0.6541, Rec=0.9408, F1=0.7717
+     Class 1: Acc=0.8780, Prec=0.9838, Rec=0.8780, F1=0.9279
+  → Confusion Matrix:
+      3133   197
+      1657 11928
+----------------------------------------------------------------------
+LR - Interpretable        | Acc: 0.7236 | Prec: 0.6543 | Rec: 0.7269 | F1: 0.6590
+  → Per-class metrics:
+     Class 0: Acc=0.7324, Prec=0.3919, Rec=0.7324, F1=0.5106
+     Class 1: Acc=0.7215, Prec=0.9167, Rec=0.7215, F1=0.8074
+  → Confusion Matrix:
+      2439   891
+      3784  9801
+----------------------------------------------------------------------
+LR - Combined             | Acc: 0.9091 | Prec: 0.8422 | Rec: 0.9211 | F1: 0.8719
+  → Per-class metrics:
+     Class 0: Acc=0.9408, Prec=0.7003, Rec=0.9408, F1=0.8029
+     Class 1: Acc=0.9013, Prec=0.9842, Rec=0.9013, F1=0.9409
+  → Confusion Matrix:
+      3133   197
+      1341 12244
+----------------------------------------------------------------------
+SVM - Word ngrams         | Acc: 0.9280 | Prec: 0.8681 | Rec: 0.9395 | F1: 0.8967
+  → Per-class metrics:
+     Class 0: Acc=0.9586, Prec=0.7472, Rec=0.9586, F1=0.8398
+     Class 1: Acc=0.9205, Prec=0.9891, Rec=0.9205, F1=0.9536
+  → Confusion Matrix:
+      3192   138
+      1080 12505
+----------------------------------------------------------------------
+SVM - Interpretable       | Acc: 0.7633 | Prec: 0.6897 | Rec: 0.7731 | F1: 0.7024
+  → Per-class metrics:
+     Class 0: Acc=0.7892, Prec=0.4432, Rec=0.7892, F1=0.5677
+     Class 1: Acc=0.7570, Prec=0.9361, Rec=0.7570, F1=0.8371
+  → Confusion Matrix:
+      2628   702
+      3301 10284
+----------------------------------------------------------------------
+SVM - Combined            | Acc: 0.9497 | Prec: 0.9045 | Rec: 0.9506 | F1: 0.9249
+  → Per-class metrics:
+     Class 0: Acc=0.9520, Prec=0.8212, Rec=0.9520, F1=0.8818
+     Class 1: Acc=0.9492, Prec=0.9877, Rec=0.9492, F1=0.9681
+  → Confusion Matrix:
+      3170   160
+       690 12895
+----------------------------------------------------------------------
+Transformer (DistilBERT) Results:
+  eval_loss      : 0.1612
+  eval_accuracy  : 0.9743
+  eval_precision : 0.9593
+  eval_recall    : 0.9594
+  eval_f1        : 0.9593
+  eval_runtime   : 1080.0132
+  eval_samples_per_second: 15.6620
+  eval_steps_per_second: 0.9800
+  epoch          : 2.0000
+======================================================================
+
+
+### Experiment 1 — Feature importance & interpretability
+
+* Train a **sparse, linear model** (LR with L1 or ElasticNet) on interpretable features.
+* Compute **feature coefficients**, **permutation importance**, and **SHAP** values (for LR and for transformer if used).
+* Rank features overall and per feature group.
+
+Experiment 1 -- Timestamp: 2025-10-14 08:51:23
+
+Top features by coefficient (with stats):
+Idx | Name | Coef | PermImp | SHAP(abs mean) | EffectSize_d | p_uncorr | p_FDR | Reject_H0
+ 1 | semicolon_rate                 | -1020.6780 | +0.0436 | 0.4853 | +0.536 | 1.68e-143 | 6.03e-143 | True
+ 2 | comma_rate                     | -272.4102 | +0.0729 | 0.7713 | +0.608 | 5.81e-212 | 2.62e-211 | True
+ 3 | LexicalDensity                 | -33.6867 | +0.0903 | 1.0413 | +0.672 | 2.25e-238 | 2.03e-237 | True
+ 4 | prepositions_rate              | -32.6807 | +0.0415 | 0.5072 | +0.791 | 0.00e+00 | 0.00e+00 | True
+ 5 | MTLD                           | +25.0265 | +0.0000 | 0.0000 | +0.000 | 1.00e+00 | 1.00e+00 | False
+ 6 | articles_rate                  | -10.0696 | -0.0006 | 0.1864 | -0.297 | 8.28e-42 | 1.24e-41 | True
+ 7 | MSTTR                          | +5.4803 | +0.0071 | 0.1398 | -0.411 | 1.90e-93 | 4.89e-93 | True
+ 8 | AvgLogFreq                     | -5.1735 | +0.0758 | 0.7086 | +0.386 | 2.13e-84 | 4.26e-84 | True
+ 9 | TTR                            | -3.9657 | -0.0099 | 0.2411 | -0.387 | 7.94e-65 | 1.30e-64 | True
+10 | pronouns_rate                  | -3.6199 | +0.0035 | 0.0782 | +0.415 | 3.90e-92 | 8.78e-92 | True
+11 | uppercase_ratio                | -1.4306 | +0.0003 | 0.0091 | -0.134 | 1.87e-222 | 1.12e-221 | True
+12 | subordination_index            | -0.8781 | +0.0097 | 0.2332 | -0.017 | 1.13e-02 | 1.19e-02 | True
+13 | lexical_overlap                | +0.2090 | +0.0013 | 0.2753 | +0.282 | 4.38e-67 | 7.88e-67 | True
+14 | avg_dep_depth                  | -0.0440 | -0.0001 | 0.0162 | +0.051 | 6.39e-04 | 7.19e-04 | True
+15 | connective_rate                | +0.0433 | -0.0001 | 0.0044 | +0.067 | 4.96e-15 | 5.95e-15 | True
+16 | error_rate_per_1k              | -0.0302 | +0.0524 | 0.8007 | +0.274 | 2.61e-37 | 3.61e-37 | True
+17 | mean_sent_len                  | +0.0089 | -0.0008 | 0.0473 | +0.134 | 8.65e-26 | 1.11e-25 | True
+18 | auxiliaries_rate               | +0.0000 | +0.0000 | 0.0000 | -0.395 | 2.24e-96 | 6.73e-96 | True
+
+These results show the top interpretable linguistic features that distinguish native from non-native English texts based on three complementary importance measures from your sparse logistic regression model:
+
+***
+
+### Interpretation of Columns
+- **Coefficient (Coef):**  
+  Shows the signed weight of each feature in the linear model. A negative coefficient means higher values of that feature are associated with the native class (assuming your coding), while a positive coefficient favors the non-native class.
+
+- **Permutation Importance (PermImp):**  
+  Reflects how much shuffling that feature’s values lowers model accuracy on the test set. Larger values mean the feature is more important for predictive accuracy, regardless of sign.
+
+- **SHAP (abs mean):**  
+  Average absolute SHAP values show how much each feature contributes to model predictions (impact magnitude), independent of direction, across all test samples.
+
+***
+
+### Key Takeaways
+
+1. **Highly negative coefficients with moderate to high importance:**  
+   Features like **semicolon_rate (-995)**, **comma_rate (-268)**, **LexicalDensity (-34)**, and **prepositions_rate (-33)** are very strong indicators of the native class. Native speakers tend to use more semicolons, commas, richer lexical density, and more prepositions. This is also supported by moderate permutation importance and substantial SHAP values, confirming their real impact on model predictions.
+
+2. **Positive coefficients with low permutation importance:**  
+   Features such as **MTLD (+22)**, **bigram_repetition_rate (+9)**, and **MSTTR (+8)** have a positive coefficient suggesting they are more frequent or stronger signals in non-native texts. However, their permutation importance and SHAP values are often low or zero, indicating their actual predictive contribution may be limited or noisy.
+
+3. **Functional words and frequency features:**  
+   - **articles_rate (-9.8)**, **pronouns_rate (-4.2)**, and **AvgLogFreq (-4.9)** have negative coefficients and moderate importance, consistent with native speakers using articles and pronouns more naturally, plus using more frequent words.
+   
+4. **Error-related features:**  
+   - **error_rate_per_1k (-0.03)** has a small negative coefficient but relatively high permutation importance and SHAP value (~0.79), indicating spelling/grammar errors are good cues for identifying non-native writing.
+
+5. **Low or zero importance features:**  
+   Features like **auxiliaries_rate**, **TTR**, and **avg_dep_depth** have near-zero coefficients and importance scores, suggesting they do not meaningfully distinguish native vs. non-native in your data.
+
+***
+
+### Summary
+
+- The model clearly relies on **punctuation usage (semicolons, commas)**, **lexical richness/density**, and **function word usage** as strong, interpretable markers of nativeness.
+- Measures of **textual diversity** (MTLD, MSTTR) and some higher-level syntax features show weak or inconsistent roles.
+- **Error rates** remain important indicators of non-nativeness.
+- Combining coefficient signs with importance scores and SHAP values lets you cross-validate which features are genuinely predictive rather than artifacts of model fitting.
+
+***
+
+These insights guide further analysis (e.g., in Experiment 2) by focusing on feature groups with highest predictive value and exploring linguistic explanations underlying these patterns. Let me know if you want help interpreting any specific features further!
+
+Experiment 1 bis - Logistic Regression on texts WITHOUT commas and semicolons,
+with semicolon_rate and comma_rate zeroed out in interpretable features
+
+LR - Char ngrams (no commas/semicolons) | Acc: 0.8740 | Prec: 0.8017 | Rec: 0.9048 | F1: 0.8325
+LR - Word ngrams (no commas/semicolons) | Acc: 0.8864 | Prec: 0.8145 | Rec: 0.9086 | F1: 0.8456
+LR - Interpretable Features (no ;, rates) | Acc: 0.7215 | Prec: 0.6543 | Rec: 0.7282 | F1: 0.6582
+
+### Experiment 2 — Ablation & group importance
+
+* Ablation matrix: remove one feature group at a time (A, B, C, …) and record drop in performance (ΔF1).
+* Permutation group importance: permute feature group columns and measure performance decrease.
+
+**Goal:** quantify which *groups* of features the classifier relies on.
+
+Results:
+
+Baseline macro F1: 0.6706
+
+Feature Group Ablation (delta F1):
+A: 0.1214
+B: 0.0171
+C: 0.0008
+D: 0.0179
+E: 0.0146
+F: -0.0049
+
+Feature Group Permutation Importance (delta F1):
+A: 0.1282
+B: 0.0613
+C: 0.0125
+D: 0.0477
+E: 0.0126
+F: -0.0036
+
+### Experiment 3 — Prompt / topic bias checks
+
+* **Prompt-held-out vs. random split comparison:** train models under both splits, compare top features and performance.
+* **Topic word control:** remove content word features (e.g., filter out top N content words by TF-IDF) and re-run feature importance.
+
+**Goal:** reveal how much topical words drive decisions.
+
+Results:
+
+split,model,accuracy,precision,recall,f1,top_features,removed_words
+PromptHeldout,LR_CharNgram,0.8681708935681745,0.7991289986399838,0.7892736429159655,0.7940197920190906,"[('car', np.float64(2.9085479914547485)), (' car', np.float64(2.8778568676312735)), ('apo', np.float64(-2.8335294719622413)), ('pos;', np.float64(-2.693426605244737)), ('apos;', np.float64(-2.693426605244737)), ('os;', np.float64(-2.6930126188687757)), ('apos', np.float64(-2.690944530728738)), ('youn', np.float64(-2.6466161408561866)), ('&apo', np.float64(-2.6454257344808627)), ('&apos', np.float64(-2.6454257344808627)), ('&ap', np.float64(-2.6454257344808627)), ('young', np.float64(-2.6383333936745186)), ('oung', np.float64(-2.63061985664577)), (' youn', np.float64(-2.5311857313047823)), ('ung', np.float64(-2.5301305257258577)), ('cars', np.float64(2.170188833137494)), ('oung ', np.float64(-2.1549266707472086)), (' cars', np.float64(2.1263210237589814)), ('ung ', np.float64(-2.114808519210805)), ('ung p', np.float64(-2.0885628381304953))]",
+PromptHeldout,LR_WordNgram,0.8424148939986369,0.7576839464871334,0.7642872891070169,0.7608850110263254,"[('apos', np.float64(-8.30812728787579)), ('young', np.float64(-5.412825091968274)), ('knowledge', np.float64(-4.934266584804619)), ('young people', np.float64(-4.7258988380955165)), ('car', np.float64(4.5603692462352745)), ('cars', np.float64(4.556207185507115)), ('quot', np.float64(-4.548359029039415)), ('successful', np.float64(-4.077139330133375)), ('driving', np.float64(4.059963688013476)), ('school', np.float64(3.9801580423286245)), ('risks', np.float64(-3.969568129573227)), ('seagoing', np.float64(3.927984571689847)), ('communities', np.float64(-3.8737556154819495)), ('community', np.float64(-3.8301699572262846)), ('guide', np.float64(-3.784152754952146)), ('subjects', np.float64(-3.777302163791911)), ('emotions', np.float64(3.721809808738818)), ('face', np.float64(3.6433850790666154)), ('students', np.float64(3.595363808974415)), ('subject', np.float64(-3.57616892577716))]",
+PromptHeldout,SVM_WordNgram,0.8466119022850378,0.7641132615620414,0.7669903305859003,0.7655333783847684,"[('apos', np.float64(-2.634172343769514)), ('young', np.float64(-1.678923422300219)), ('statement', np.float64(-1.5735239068131326)), ('young people', np.float64(-1.530379920083701)), ('communities', np.float64(-1.4829075612926956)), ('summer', np.float64(1.4172966234179702)), ('cars', np.float64(1.414177757727056)), ('driving', np.float64(1.412466086562565)), ('travel', np.float64(-1.4062786436985346)), ('seagoing', np.float64(1.3812469217894456)), ('risks', np.float64(-1.334210393247316)), ('luke', np.float64(1.3113738776624768)), ('subjects', np.float64(-1.3106549960002842)), ('community', np.float64(-1.2847489216515995)), ('knowledge', np.float64(-1.2824770284471452)), ('emotions', np.float64(1.240200962958928)), ('quot', np.float64(-1.2287257634166102)), ('agree', np.float64(-1.2132202562795589)), ('animals', np.float64(1.2058111704293144)), ('online', np.float64(1.1692793493559874))]",
+PromptHeldout,LR_CharNgram_noTopWords,0.918821967930552,0.8733935618098764,0.8790475947500531,0.8761757930250149,"[(' old', np.float64(-5.09308369565134)), (' ol', np.float64(-5.058559368782522)), ('old', np.float64(-3.5646405385993796)), (' &;', np.float64(-3.1157925065752603)), ('munit', np.float64(-2.944019836293544)), ('lder', np.float64(-2.941662478134295)), ('lde', np.float64(-2.902929133058318)), (' old ', np.float64(-2.858579686517424)), (' a ', np.float64(2.7873572071551225)), ('isk', np.float64(-2.7721839612426145)), ('risk', np.float64(-2.7654508864629954)), (' risk', np.float64(-2.7576378949917166)), (' olde', np.float64(-2.6957370432586565)), ('older', np.float64(-2.683627067475495)), ('&;s', np.float64(-2.68256250217494)), ('olde', np.float64(-2.6778388143087555)), ('lder ', np.float64(-2.6503636237898798)), (';s ', np.float64(-2.531002879155184)), (' ris', np.float64(-2.5039388484538776)), ('&;s ', np.float64(-2.4999961037394742))]","['students', 'people', 'school', 'electoral', 'car', 'help', 'student', 'vote', 'time', 'think', 'cars', 'college', 'like', 'technology', 'electoral college', 'life', 'just', 'new', 'young', 'face', 'know', 'emotions', 'use', 'things', 'work', 'president', 'computer', 'make', 'way', 'phones', 'driving', 'facial', 'want', 'good', 'seagoing', 'young people', 'teacher', 'able', 'don', 'better', 'need', 'teachers', 'world', 'states', 'class', 'person', 'phone', 'learning', 'home', 'knowledge', 'cell', 'day', 'summer', 'really', 'project', 'going', 'learn', 'apos', 'different', 'classroom', 'program', 'electors', 'luke', 'feel', 'lot', 'online', 'having', 'example', 'projects', 'kids', 'classes', 'votes', 'reason', 'enjoy', 'animals', 'thing', 'tell', 'doing', 'say', 'fun', 'subject', 'sports', 'try', 'change', 'mars', 'cowboys', 'feeling', 'coding', 'action', 'human', 'state', 'believe', 'read', 'text', 'using', 'average', 'happy', 'policy', 'used', 'free']"
+PromptHeldout,LR_WordNgram_noTopWords,0.8861068264160419,0.8274234734427646,0.817426498450663,0.8222593750728269,"[('older', np.float64(-9.21056133498428)), ('successful', np.float64(-7.468261512961524)), ('quot', np.float64(-7.131983639154619)), ('communities', np.float64(-7.059234093169217)), ('risks', np.float64(-6.928734302347278)), ('old', np.float64(-6.609530875301041)), ('subjects', np.float64(-6.58726357681299)), ('community', np.float64(-5.60262345567345)), ('guide', np.float64(-5.372045466959003)), ('broad', np.float64(-5.150198696066565)), ('tour', np.float64(-5.140279892251886)), ('statement', np.float64(-4.967864482237507)), ('designed', np.float64(4.736537232876751)), ('academic', np.float64(-4.438662525469679)), ('success', np.float64(-4.34355535545557)), ('language', np.float64(-4.284203796873432)), ('risk', np.float64(-4.27073059191646)), ('english', np.float64(-4.192029050350508)), ('tour guide', np.float64(-4.120772912744391)), ('specific', np.float64(-4.0498474280059416))]","['students', 'people', 'school', 'electoral', 'car', 'help', 'student', 'vote', 'time', 'think', 'cars', 'college', 'like', 'technology', 'electoral college', 'life', 'just', 'new', 'young', 'face', 'know', 'emotions', 'use', 'things', 'work', 'president', 'computer', 'make', 'way', 'phones', 'driving', 'facial', 'want', 'good', 'seagoing', 'young people', 'teacher', 'able', 'don', 'better', 'need', 'teachers', 'world', 'states', 'class', 'person', 'phone', 'learning', 'home', 'knowledge', 'cell', 'day', 'summer', 'really', 'project', 'going', 'learn', 'apos', 'different', 'classroom', 'program', 'electors', 'luke', 'feel', 'lot', 'online', 'having', 'example', 'projects', 'kids', 'classes', 'votes', 'reason', 'enjoy', 'animals', 'thing', 'tell', 'doing', 'say', 'fun', 'subject', 'sports', 'try', 'change', 'mars', 'cowboys', 'feeling', 'coding', 'action', 'human', 'state', 'believe', 'read', 'text', 'using', 'average', 'happy', 'policy', 'used', 'free']"
+PromptHeldout,SVM_WordNgram_noTopWords,0.9009936506797719,0.8461565517765923,0.8523310186228976,0.8491847942417787,"[('older', np.float64(-2.5533182698292505)), ('communities', np.float64(-2.5500170339190382)), ('risks', np.float64(-2.2544531933550402)), ('statement', np.float64(-2.072815886216747)), ('old', np.float64(-2.03043776480738)), ('broad', np.float64(-2.0167545452050577)), ('nowadays', np.float64(-1.99901548679544)), ('cowboy', np.float64(1.9540716133125455)), ('subjects', np.float64(-1.8421817005469674)), ('designed', np.float64(1.8405176475008282)), ('successful', np.float64(-1.8229766720839657)), ('dear', np.float64(1.6722062402267368)), ('join', np.float64(1.6596924736453353)), ('benefit', np.float64(1.643062730918205)), ('community', np.float64(-1.627028777867431)), ('risk', np.float64(-1.6228224683865058)), ('agree', np.float64(-1.4570495048557544)), ('attend', np.float64(1.449866033958504)), ('tour', np.float64(-1.437541473719845)), ('grades', np.float64(1.4349150504171526))]","['students', 'people', 'school', 'electoral', 'car', 'help', 'student', 'vote', 'time', 'think', 'cars', 'college', 'like', 'technology', 'electoral college', 'life', 'just', 'new', 'young', 'face', 'know', 'emotions', 'use', 'things', 'work', 'president', 'computer', 'make', 'way', 'phones', 'driving', 'facial', 'want', 'good', 'seagoing', 'young people', 'teacher', 'able', 'don', 'better', 'need', 'teachers', 'world', 'states', 'class', 'person', 'phone', 'learning', 'home', 'knowledge', 'cell', 'day', 'summer', 'really', 'project', 'going', 'learn', 'apos', 'different', 'classroom', 'program', 'electors', 'luke', 'feel', 'lot', 'online', 'having', 'example', 'projects', 'kids', 'classes', 'votes', 'reason', 'enjoy', 'animals', 'thing', 'tell', 'doing', 'say', 'fun', 'subject', 'sports', 'try', 'change', 'mars', 'cowboys', 'feeling', 'coding', 'action', 'human', 'state', 'believe', 'read', 'text', 'using', 'average', 'happy', 'policy', 'used', 'free']"
+RandomSplit,LR_CharNgram,0.9989850291804111,0.9983232236267372,0.99879284302664,0.9985577911845581,"[('driv', np.float64(3.312080923198585)), ('dri', np.float64(3.1402018220761865)), (' driv', np.float64(3.0646007156893655)), ('riv', np.float64(2.9318247571254696)), (' dri', np.float64(2.9089021030766706)), ('youn', np.float64(-2.862203863727138)), ('young', np.float64(-2.8561118006627475)), ('oung', np.float64(-2.8463744011094314)), ('ung', np.float64(-2.745571433136519)), (' youn', np.float64(-2.7120073402781086)), (' dr', np.float64(2.653227593014067)), ('apo', np.float64(-2.647882962090483)), (' in', np.float64(-2.6455838359797728)), ('pos;', np.float64(-2.549798842561338)), ('apos;', np.float64(-2.549798842561338)), ('os;', np.float64(-2.549382846016277)), ('apos', np.float64(-2.54426984309538)), ('&ap', np.float64(-2.5093489352386533)), ('&apos', np.float64(-2.5093489352386533)), ('&apo', np.float64(-2.5093489352386533))]",
+RandomSplit,LR_WordNgram,0.9991880233443289,0.9990023333158363,0.9986885347407588,0.998845326149217,"[('apos', np.float64(-8.064261746148508)), ('venus', np.float64(6.306380553160319)), ('driverless', np.float64(5.856710228810215)), ('years', np.float64(-5.685552293225558)), ('young', np.float64(-5.370731384637236)), ('driving', np.float64(5.236885846904147)), ('young people', np.float64(-4.909577025356954)), ('statement', np.float64(-4.561944466175568)), ('quot', np.float64(-4.350140297773991)), ('products', np.float64(-4.34139422706297)), ('face', np.float64(4.2189571898625555)), ('knowledge', np.float64(-4.193374942956712)), ('advice', np.float64(4.15634565887754)), ('driverless cars', np.float64(4.115316629739872)), ('successful', np.float64(-3.9719933074912377)), ('facts', np.float64(-3.918790296271872)), ('product', np.float64(-3.8853524746593378)), ('communities', np.float64(-3.8159822804117094)), ('concepts', np.float64(-3.7642272671898254)), ('advertisements', np.float64(-3.7039696012299372))]",
+RandomSplit,SVM_WordNgram,0.9996447602131439,0.9995342117142036,0.9994557003991291,0.9994949493118739,"[('apos', np.float64(-2.8338334005158266)), ('statement', np.float64(-2.2235676933046578)), ('venus', np.float64(2.0006388898822953)), ('years', np.float64(-1.98040739414119)), ('driverless', np.float64(1.9294136933381612)), ('young people', np.float64(-1.886331766697197)), ('nowadays', np.float64(-1.7308052116151227)), ('communities', np.float64(-1.7248393175092234)), ('concepts', np.float64(-1.6964061430075)), ('driving', np.float64(1.6725161110314681)), ('young', np.float64(-1.66868098819645)), ('summer', np.float64(1.55030802202115)), ('advertisement', np.float64(-1.549122464598215)), ('products', np.float64(-1.501429966680813)), ('advertisements', np.float64(-1.4754560902496212)), ('agree', np.float64(-1.4310779950562673)), ('fewer', np.float64(-1.3922121294616234)), ('kids', np.float64(1.369854702733692)), ('example', np.float64(-1.3509944853763447)), ('dear', np.float64(1.349333992189024))]",
+RandomSplit,LR_CharNgram_noTopWords,0.998071555442781,0.9969485051328124,0.9975728205104022,0.9972602333334709,"[(' old', np.float64(-3.155177082770278)), (' ol', np.float64(-3.141429884229885)), (' a ', np.float64(3.0584181335744023)), (' &;', np.float64(-2.9144724514121947)), (' in', np.float64(-2.7355405568398967)), ('ncep', np.float64(-2.65307615035992)), ('oncep', np.float64(-2.641821702444879)), ('ncept', np.float64(-2.6251912319452497)), ('&;s', np.float64(-2.6055662893286198)), ('conce', np.float64(-2.5836142171000542)), ('cep', np.float64(-2.534660649423401)), ('nty', np.float64(-2.5057939438787464)), ('cept', np.float64(-2.4952153154272545)), (';s ', np.float64(-2.478802383830016)), ('&;s ', np.float64(-2.438175407897725)), ('epts', np.float64(-2.3849685143827846)), ('wen', np.float64(-2.384878237659702)), (' his', np.float64(-2.3655789295991596)), ('went', np.float64(-2.3625602682848514)), ('twe', np.float64(-2.3580752224146986))]","['cars', 'students', 'car', 'people', 'venus', 'driverless', 'school', 'like', 'help', 'think', 'face', 'just', 'time', 'student', 'make', 'technology', 'driverless cars', 'life', 'new', 'driving', 'know', 'electoral', 'good', 'use', 'things', 'planet', 'way', 'mars', 'vote', 'want', 'better', 'work', 'need', 'college', 'earth', 'don', 'world', 'able', 'electoral college', 'person', 'author', 'community', 'young', 'really', 'computer', 'idea', 'states', 'going', 'emotions', 'driver', 'learn', 'human', 'different', 'lot', 'learning', 'example', 'thing', 'reason', 'phones', 'president', 'facial', 'day', 'say', 'teacher', 'drive', 'having', 'teachers', 'class', 'nasa', 'apos', 'kids', 'believe', 'seagoing', 'home', 'young people', 'feel', 'doing', 'important', 'knowledge', 'phone', 'understand', 'facts', 'money', 'try', 'change', 'aliens', 'ideas', 'future', 'paragraph', 'text', 'great', 'years', 'article', 'tell', 'landform', 'fun', 'humans', 'used', 'reasons', 'best']"
+RandomSplit,LR_WordNgram_noTopWords,0.9984267952296372,0.9977245989890517,0.9978028113107702,0.9977636984248361,"[('concepts', np.float64(-7.412239703949585)), ('communities', np.float64(-6.247350202423563)), ('statement', np.float64(-6.156956920141022)), ('fewer', np.float64(-5.774557650539661)), ('nowadays', np.float64(-5.5345602945135415)), ('successful', np.float64(-5.497771260828391)), ('quot', np.float64(-5.153386868021989)), ('products', np.float64(-5.0407101658884)), ('older', np.float64(-4.740301571285675)), ('risks', np.float64(-4.699858035740934)), ('enjoy', np.float64(-4.5258336131587935)), ('agree', np.float64(-4.514002155711695)), ('old', np.float64(-4.384244557144948)), ('number', np.float64(-4.214794726942218)), ('product', np.float64(-4.159841540508183)), ('advertisements', np.float64(-3.9722632621187417)), ('subjects', np.float64(-3.9446184177207813)), ('language', np.float64(-3.8637197555529004)), ('success', np.float64(-3.7766561457350227)), ('guide', np.float64(-3.7013214175751745))]","['cars', 'students', 'car', 'people', 'venus', 'driverless', 'school', 'like', 'help', 'think', 'face', 'just', 'time', 'student', 'make', 'technology', 'driverless cars', 'life', 'new', 'driving', 'know', 'electoral', 'good', 'use', 'things', 'planet', 'way', 'mars', 'vote', 'want', 'better', 'work', 'need', 'college', 'earth', 'don', 'world', 'able', 'electoral college', 'person', 'author', 'community', 'young', 'really', 'computer', 'idea', 'states', 'going', 'emotions', 'driver', 'learn', 'human', 'different', 'lot', 'learning', 'example', 'thing', 'reason', 'phones', 'president', 'facial', 'day', 'say', 'teacher', 'drive', 'having', 'teachers', 'class', 'nasa', 'apos', 'kids', 'believe', 'seagoing', 'home', 'young people', 'feel', 'doing', 'important', 'knowledge', 'phone', 'understand', 'facts', 'money', 'try', 'change', 'aliens', 'ideas', 'future', 'paragraph', 'text', 'great', 'years', 'article', 'tell', 'landform', 'fun', 'humans', 'used', 'reasons', 'best']"
+RandomSplit,SVM_WordNgram_noTopWords,0.9989342806394316,0.9986805557937224,0.9982885239972616,0.9984843713895863,"[('concepts', np.float64(-3.004810762964879)), ('statement', np.float64(-2.7690206142289626)), ('communities', np.float64(-2.5668373080071283)), ('fewer', np.float64(-2.5506010379333746)), ('nowadays', np.float64(-2.5464366916291254)), ('products', np.float64(-2.0891270353587297)), ('dear', np.float64(1.8913049130818294)), ('agree', np.float64(-1.7411590978755598)), ('risks', np.float64(-1.740722522878571)), ('successful', np.float64(-1.7220202939189153)), ('advertisement', np.float64(-1.6985604146140711)), ('quot', np.float64(-1.6618518759912926)), ('number', np.float64(-1.643829783443265)), ('cowboy', np.float64(1.5991711406396003)), ('old', np.float64(-1.5744320355098402)), ('fewer today', np.float64(-1.5741248393100944)), ('success', np.float64(-1.5656520485581706)), ('limiting', np.float64(1.5591861235293951)), ('online', np.float64(1.5377805015410997)), ('principal', np.float64(1.5241686510795285))]","['cars', 'students', 'car', 'people', 'venus', 'driverless', 'school', 'like', 'help', 'think', 'face', 'just', 'time', 'student', 'make', 'technology', 'driverless cars', 'life', 'new', 'driving', 'know', 'electoral', 'good', 'use', 'things', 'planet', 'way', 'mars', 'vote', 'want', 'better', 'work', 'need', 'college', 'earth', 'don', 'world', 'able', 'electoral college', 'person', 'author', 'community', 'young', 'really', 'computer', 'idea', 'states', 'going', 'emotions', 'driver', 'learn', 'human', 'different', 'lot', 'learning', 'example', 'thing', 'reason', 'phones', 'president', 'facial', 'day', 'say', 'teacher', 'drive', 'having', 'teachers', 'class', 'nasa', 'apos', 'kids', 'believe', 'seagoing', 'home', 'young people', 'feel', 'doing', 'important', 'knowledge', 'phone', 'understand', 'facts', 'money', 'try', 'change', 'aliens', 'ideas', 'future', 'paragraph', 'text', 'great', 'years', 'article', 'tell', 'landform', 'fun', 'humans', 'used', 'reasons', 'best']"
+
+split,model,top_features,removed_words
+PromptHeldout,LR_CharNgram,"[('car', np.float64(2.9085479914547485)), (' car', np.float64(2.8778568676312735)), ('apo', np.float64(-2.8335294719622413)), ('pos;', np.float64(-2.693426605244737)), ('apos;', np.float64(-2.693426605244737)), ('os;', np.float64(-2.6930126188687757)), ('apos', np.float64(-2.690944530728738)), ('youn', np.float64(-2.6466161408561866)), ('&apo', np.float64(-2.6454257344808627)), ('&apos', np.float64(-2.6454257344808627)), ('&ap', np.float64(-2.6454257344808627)), ('young', np.float64(-2.6383333936745186)), ('oung', np.float64(-2.63061985664577)), (' youn', np.float64(-2.5311857313047823)), ('ung', np.float64(-2.5301305257258577)), ('cars', np.float64(2.170188833137494)), ('oung ', np.float64(-2.1549266707472086)), (' cars', np.float64(2.1263210237589814)), ('ung ', np.float64(-2.114808519210805)), ('ung p', np.float64(-2.0885628381304953))]",
+PromptHeldout,LR_WordNgram,"[('apos', np.float64(-8.30812728787579)), ('young', np.float64(-5.412825091968274)), ('knowledge', np.float64(-4.934266584804619)), ('young people', np.float64(-4.7258988380955165)), ('car', np.float64(4.5603692462352745)), ('cars', np.float64(4.556207185507115)), ('quot', np.float64(-4.548359029039415)), ('successful', np.float64(-4.077139330133375)), ('driving', np.float64(4.059963688013476)), ('school', np.float64(3.9801580423286245)), ('risks', np.float64(-3.969568129573227)), ('seagoing', np.float64(3.927984571689847)), ('communities', np.float64(-3.8737556154819495)), ('community', np.float64(-3.8301699572262846)), ('guide', np.float64(-3.784152754952146)), ('subjects', np.float64(-3.777302163791911)), ('emotions', np.float64(3.721809808738818)), ('face', np.float64(3.6433850790666154)), ('students', np.float64(3.595363808974415)), ('subject', np.float64(-3.57616892577716))]",
+PromptHeldout,SVM_WordNgram,"[('apos', np.float64(-2.634172343769514)), ('young', np.float64(-1.678923422300219)), ('statement', np.float64(-1.5735239068131326)), ('young people', np.float64(-1.530379920083701)), ('communities', np.float64(-1.4829075612926956)), ('summer', np.float64(1.4172966234179702)), ('cars', np.float64(1.414177757727056)), ('driving', np.float64(1.412466086562565)), ('travel', np.float64(-1.4062786436985346)), ('seagoing', np.float64(1.3812469217894456)), ('risks', np.float64(-1.334210393247316)), ('luke', np.float64(1.3113738776624768)), ('subjects', np.float64(-1.3106549960002842)), ('community', np.float64(-1.2847489216515995)), ('knowledge', np.float64(-1.2824770284471452)), ('emotions', np.float64(1.240200962958928)), ('quot', np.float64(-1.2287257634166102)), ('agree', np.float64(-1.2132202562795589)), ('animals', np.float64(1.2058111704293144)), ('online', np.float64(1.1692793493559874))]",
+PromptHeldout,LR_CharNgram_noTopWords,"[(' old', np.float64(-5.09308369565134)), (' ol', np.float64(-5.058559368782522)), ('old', np.float64(-3.5646405385993796)), (' &;', np.float64(-3.1157925065752603)), ('munit', np.float64(-2.944019836293544)), ('lder', np.float64(-2.941662478134295)), ('lde', np.float64(-2.902929133058318)), (' old ', np.float64(-2.858579686517424)), (' a ', np.float64(2.7873572071551225)), ('isk', np.float64(-2.7721839612426145)), ('risk', np.float64(-2.7654508864629954)), (' risk', np.float64(-2.7576378949917166)), (' olde', np.float64(-2.6957370432586565)), ('older', np.float64(-2.683627067475495)), ('&;s', np.float64(-2.68256250217494)), ('olde', np.float64(-2.6778388143087555)), ('lder ', np.float64(-2.6503636237898798)), (';s ', np.float64(-2.531002879155184)), (' ris', np.float64(-2.5039388484538776)), ('&;s ', np.float64(-2.4999961037394742))]","['students', 'people', 'school', 'electoral', 'car', 'help', 'student', 'vote', 'time', 'think', 'cars', 'college', 'like', 'technology', 'electoral college', 'life', 'just', 'new', 'young', 'face', 'know', 'emotions', 'use', 'things', 'work', 'president', 'computer', 'make', 'way', 'phones', 'driving', 'facial', 'want', 'good', 'seagoing', 'young people', 'teacher', 'able', 'don', 'better', 'need', 'teachers', 'world', 'states', 'class', 'person', 'phone', 'learning', 'home', 'knowledge', 'cell', 'day', 'summer', 'really', 'project', 'going', 'learn', 'apos', 'different', 'classroom', 'program', 'electors', 'luke', 'feel', 'lot', 'online', 'having', 'example', 'projects', 'kids', 'classes', 'votes', 'reason', 'enjoy', 'animals', 'thing', 'tell', 'doing', 'say', 'fun', 'subject', 'sports', 'try', 'change', 'mars', 'cowboys', 'feeling', 'coding', 'action', 'human', 'state', 'believe', 'read', 'text', 'using', 'average', 'happy', 'policy', 'used', 'free']"
+PromptHeldout,LR_WordNgram_noTopWords,"[('older', np.float64(-9.21056133498428)), ('successful', np.float64(-7.468261512961524)), ('quot', np.float64(-7.131983639154619)), ('communities', np.float64(-7.059234093169217)), ('risks', np.float64(-6.928734302347278)), ('old', np.float64(-6.609530875301041)), ('subjects', np.float64(-6.58726357681299)), ('community', np.float64(-5.60262345567345)), ('guide', np.float64(-5.372045466959003)), ('broad', np.float64(-5.150198696066565)), ('tour', np.float64(-5.140279892251886)), ('statement', np.float64(-4.967864482237507)), ('designed', np.float64(4.736537232876751)), ('academic', np.float64(-4.438662525469679)), ('success', np.float64(-4.34355535545557)), ('language', np.float64(-4.284203796873432)), ('risk', np.float64(-4.27073059191646)), ('english', np.float64(-4.192029050350508)), ('tour guide', np.float64(-4.120772912744391)), ('specific', np.float64(-4.0498474280059416))]","['students', 'people', 'school', 'electoral', 'car', 'help', 'student', 'vote', 'time', 'think', 'cars', 'college', 'like', 'technology', 'electoral college', 'life', 'just', 'new', 'young', 'face', 'know', 'emotions', 'use', 'things', 'work', 'president', 'computer', 'make', 'way', 'phones', 'driving', 'facial', 'want', 'good', 'seagoing', 'young people', 'teacher', 'able', 'don', 'better', 'need', 'teachers', 'world', 'states', 'class', 'person', 'phone', 'learning', 'home', 'knowledge', 'cell', 'day', 'summer', 'really', 'project', 'going', 'learn', 'apos', 'different', 'classroom', 'program', 'electors', 'luke', 'feel', 'lot', 'online', 'having', 'example', 'projects', 'kids', 'classes', 'votes', 'reason', 'enjoy', 'animals', 'thing', 'tell', 'doing', 'say', 'fun', 'subject', 'sports', 'try', 'change', 'mars', 'cowboys', 'feeling', 'coding', 'action', 'human', 'state', 'believe', 'read', 'text', 'using', 'average', 'happy', 'policy', 'used', 'free']"
+PromptHeldout,SVM_WordNgram_noTopWords,"[('older', np.float64(-2.5533182698292505)), ('communities', np.float64(-2.5500170339190382)), ('risks', np.float64(-2.2544531933550402)), ('statement', np.float64(-2.072815886216747)), ('old', np.float64(-2.03043776480738)), ('broad', np.float64(-2.0167545452050577)), ('nowadays', np.float64(-1.99901548679544)), ('cowboy', np.float64(1.9540716133125455)), ('subjects', np.float64(-1.8421817005469674)), ('designed', np.float64(1.8405176475008282)), ('successful', np.float64(-1.8229766720839657)), ('dear', np.float64(1.6722062402267368)), ('join', np.float64(1.6596924736453353)), ('benefit', np.float64(1.643062730918205)), ('community', np.float64(-1.627028777867431)), ('risk', np.float64(-1.6228224683865058)), ('agree', np.float64(-1.4570495048557544)), ('attend', np.float64(1.449866033958504)), ('tour', np.float64(-1.437541473719845)), ('grades', np.float64(1.4349150504171526))]","['students', 'people', 'school', 'electoral', 'car', 'help', 'student', 'vote', 'time', 'think', 'cars', 'college', 'like', 'technology', 'electoral college', 'life', 'just', 'new', 'young', 'face', 'know', 'emotions', 'use', 'things', 'work', 'president', 'computer', 'make', 'way', 'phones', 'driving', 'facial', 'want', 'good', 'seagoing', 'young people', 'teacher', 'able', 'don', 'better', 'need', 'teachers', 'world', 'states', 'class', 'person', 'phone', 'learning', 'home', 'knowledge', 'cell', 'day', 'summer', 'really', 'project', 'going', 'learn', 'apos', 'different', 'classroom', 'program', 'electors', 'luke', 'feel', 'lot', 'online', 'having', 'example', 'projects', 'kids', 'classes', 'votes', 'reason', 'enjoy', 'animals', 'thing', 'tell', 'doing', 'say', 'fun', 'subject', 'sports', 'try', 'change', 'mars', 'cowboys', 'feeling', 'coding', 'action', 'human', 'state', 'believe', 'read', 'text', 'using', 'average', 'happy', 'policy', 'used', 'free']"
+RandomSplit,LR_CharNgram,"[('driv', np.float64(3.312080923198585)), ('dri', np.float64(3.1402018220761865)), (' driv', np.float64(3.0646007156893655)), ('riv', np.float64(2.9318247571254696)), (' dri', np.float64(2.9089021030766706)), ('youn', np.float64(-2.862203863727138)), ('young', np.float64(-2.8561118006627475)), ('oung', np.float64(-2.8463744011094314)), ('ung', np.float64(-2.745571433136519)), (' youn', np.float64(-2.7120073402781086)), (' dr', np.float64(2.653227593014067)), ('apo', np.float64(-2.647882962090483)), (' in', np.float64(-2.6455838359797728)), ('pos;', np.float64(-2.549798842561338)), ('apos;', np.float64(-2.549798842561338)), ('os;', np.float64(-2.549382846016277)), ('apos', np.float64(-2.54426984309538)), ('&ap', np.float64(-2.5093489352386533)), ('&apos', np.float64(-2.5093489352386533)), ('&apo', np.float64(-2.5093489352386533))]",
+RandomSplit,LR_WordNgram,"[('apos', np.float64(-8.064261746148508)), ('venus', np.float64(6.306380553160319)), ('driverless', np.float64(5.856710228810215)), ('years', np.float64(-5.685552293225558)), ('young', np.float64(-5.370731384637236)), ('driving', np.float64(5.236885846904147)), ('young people', np.float64(-4.909577025356954)), ('statement', np.float64(-4.561944466175568)), ('quot', np.float64(-4.350140297773991)), ('products', np.float64(-4.34139422706297)), ('face', np.float64(4.2189571898625555)), ('knowledge', np.float64(-4.193374942956712)), ('advice', np.float64(4.15634565887754)), ('driverless cars', np.float64(4.115316629739872)), ('successful', np.float64(-3.9719933074912377)), ('facts', np.float64(-3.918790296271872)), ('product', np.float64(-3.8853524746593378)), ('communities', np.float64(-3.8159822804117094)), ('concepts', np.float64(-3.7642272671898254)), ('advertisements', np.float64(-3.7039696012299372))]",
+RandomSplit,SVM_WordNgram,"[('apos', np.float64(-2.8338334005158266)), ('statement', np.float64(-2.2235676933046578)), ('venus', np.float64(2.0006388898822953)), ('years', np.float64(-1.98040739414119)), ('driverless', np.float64(1.9294136933381612)), ('young people', np.float64(-1.886331766697197)), ('nowadays', np.float64(-1.7308052116151227)), ('communities', np.float64(-1.7248393175092234)), ('concepts', np.float64(-1.6964061430075)), ('driving', np.float64(1.6725161110314681)), ('young', np.float64(-1.66868098819645)), ('summer', np.float64(1.55030802202115)), ('advertisement', np.float64(-1.549122464598215)), ('products', np.float64(-1.501429966680813)), ('advertisements', np.float64(-1.4754560902496212)), ('agree', np.float64(-1.4310779950562673)), ('fewer', np.float64(-1.3922121294616234)), ('kids', np.float64(1.369854702733692)), ('example', np.float64(-1.3509944853763447)), ('dear', np.float64(1.349333992189024))]",
+RandomSplit,LR_CharNgram_noTopWords,"[(' old', np.float64(-3.155177082770278)), (' ol', np.float64(-3.141429884229885)), (' a ', np.float64(3.0584181335744023)), (' &;', np.float64(-2.9144724514121947)), (' in', np.float64(-2.7355405568398967)), ('ncep', np.float64(-2.65307615035992)), ('oncep', np.float64(-2.641821702444879)), ('ncept', np.float64(-2.6251912319452497)), ('&;s', np.float64(-2.6055662893286198)), ('conce', np.float64(-2.5836142171000542)), ('cep', np.float64(-2.534660649423401)), ('nty', np.float64(-2.5057939438787464)), ('cept', np.float64(-2.4952153154272545)), (';s ', np.float64(-2.478802383830016)), ('&;s ', np.float64(-2.438175407897725)), ('epts', np.float64(-2.3849685143827846)), ('wen', np.float64(-2.384878237659702)), (' his', np.float64(-2.3655789295991596)), ('went', np.float64(-2.3625602682848514)), ('twe', np.float64(-2.3580752224146986))]","['cars', 'students', 'car', 'people', 'venus', 'driverless', 'school', 'like', 'help', 'think', 'face', 'just', 'time', 'student', 'make', 'technology', 'driverless cars', 'life', 'new', 'driving', 'know', 'electoral', 'good', 'use', 'things', 'planet', 'way', 'mars', 'vote', 'want', 'better', 'work', 'need', 'college', 'earth', 'don', 'world', 'able', 'electoral college', 'person', 'author', 'community', 'young', 'really', 'computer', 'idea', 'states', 'going', 'emotions', 'driver', 'learn', 'human', 'different', 'lot', 'learning', 'example', 'thing', 'reason', 'phones', 'president', 'facial', 'day', 'say', 'teacher', 'drive', 'having', 'teachers', 'class', 'nasa', 'apos', 'kids', 'believe', 'seagoing', 'home', 'young people', 'feel', 'doing', 'important', 'knowledge', 'phone', 'understand', 'facts', 'money', 'try', 'change', 'aliens', 'ideas', 'future', 'paragraph', 'text', 'great', 'years', 'article', 'tell', 'landform', 'fun', 'humans', 'used', 'reasons', 'best']"
+RandomSplit,LR_WordNgram_noTopWords,"[('concepts', np.float64(-7.412239703949585)), ('communities', np.float64(-6.247350202423563)), ('statement', np.float64(-6.156956920141022)), ('fewer', np.float64(-5.774557650539661)), ('nowadays', np.float64(-5.5345602945135415)), ('successful', np.float64(-5.497771260828391)), ('quot', np.float64(-5.153386868021989)), ('products', np.float64(-5.0407101658884)), ('older', np.float64(-4.740301571285675)), ('risks', np.float64(-4.699858035740934)), ('enjoy', np.float64(-4.5258336131587935)), ('agree', np.float64(-4.514002155711695)), ('old', np.float64(-4.384244557144948)), ('number', np.float64(-4.214794726942218)), ('product', np.float64(-4.159841540508183)), ('advertisements', np.float64(-3.9722632621187417)), ('subjects', np.float64(-3.9446184177207813)), ('language', np.float64(-3.8637197555529004)), ('success', np.float64(-3.7766561457350227)), ('guide', np.float64(-3.7013214175751745))]","['cars', 'students', 'car', 'people', 'venus', 'driverless', 'school', 'like', 'help', 'think', 'face', 'just', 'time', 'student', 'make', 'technology', 'driverless cars', 'life', 'new', 'driving', 'know', 'electoral', 'good', 'use', 'things', 'planet', 'way', 'mars', 'vote', 'want', 'better', 'work', 'need', 'college', 'earth', 'don', 'world', 'able', 'electoral college', 'person', 'author', 'community', 'young', 'really', 'computer', 'idea', 'states', 'going', 'emotions', 'driver', 'learn', 'human', 'different', 'lot', 'learning', 'example', 'thing', 'reason', 'phones', 'president', 'facial', 'day', 'say', 'teacher', 'drive', 'having', 'teachers', 'class', 'nasa', 'apos', 'kids', 'believe', 'seagoing', 'home', 'young people', 'feel', 'doing', 'important', 'knowledge', 'phone', 'understand', 'facts', 'money', 'try', 'change', 'aliens', 'ideas', 'future', 'paragraph', 'text', 'great', 'years', 'article', 'tell', 'landform', 'fun', 'humans', 'used', 'reasons', 'best']"
+RandomSplit,SVM_WordNgram_noTopWords,"[('concepts', np.float64(-3.004810762964879)), ('statement', np.float64(-2.7690206142289626)), ('communities', np.float64(-2.5668373080071283)), ('fewer', np.float64(-2.5506010379333746)), ('nowadays', np.float64(-2.5464366916291254)), ('products', np.float64(-2.0891270353587297)), ('dear', np.float64(1.8913049130818294)), ('agree', np.float64(-1.7411590978755598)), ('risks', np.float64(-1.740722522878571)), ('successful', np.float64(-1.7220202939189153)), ('advertisement', np.float64(-1.6985604146140711)), ('quot', np.float64(-1.6618518759912926)), ('number', np.float64(-1.643829783443265)), ('cowboy', np.float64(1.5991711406396003)), ('old', np.float64(-1.5744320355098402)), ('fewer today', np.float64(-1.5741248393100944)), ('success', np.float64(-1.5656520485581706)), ('limiting', np.float64(1.5591861235293951)), ('online', np.float64(1.5377805015410997)), ('principal', np.float64(1.5241686510795285))]","['cars', 'students', 'car', 'people', 'venus', 'driverless', 'school', 'like', 'help', 'think', 'face', 'just', 'time', 'student', 'make', 'technology', 'driverless cars', 'life', 'new', 'driving', 'know', 'electoral', 'good', 'use', 'things', 'planet', 'way', 'mars', 'vote', 'want', 'better', 'work', 'need', 'college', 'earth', 'don', 'world', 'able', 'electoral college', 'person', 'author', 'community', 'young', 'really', 'computer', 'idea', 'states', 'going', 'emotions', 'driver', 'learn', 'human', 'different', 'lot', 'learning', 'example', 'thing', 'reason', 'phones', 'president', 'facial', 'day', 'say', 'teacher', 'drive', 'having', 'teachers', 'class', 'nasa', 'apos', 'kids', 'believe', 'seagoing', 'home', 'young people', 'feel', 'doing', 'important', 'knowledge', 'phone', 'understand', 'facts', 'money', 'try', 'change', 'aliens', 'ideas', 'future', 'paragraph', 'text', 'great', 'years', 'article', 'tell', 'landform', 'fun', 'humans', 'used', 'reasons', 'best']"

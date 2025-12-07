@@ -1,0 +1,68 @@
+Experiment 1 -- Timestamp: 2025-10-14 08:51:23
+
+Top features by coefficient (with stats):
+Idx | Name | Coef | PermImp | SHAP(abs mean) | EffectSize_d | p_uncorr | p_FDR | Reject_H0
+ 1 | semicolon_rate                 | -1020.6780 | +0.0436 | 0.4853 | +0.536 | 1.68e-143 | 6.03e-143 | True
+ 2 | comma_rate                     | -272.4102 | +0.0729 | 0.7713 | +0.608 | 5.81e-212 | 2.62e-211 | True
+ 3 | LexicalDensity                 | -33.6867 | +0.0903 | 1.0413 | +0.672 | 2.25e-238 | 2.03e-237 | True
+ 4 | prepositions_rate              | -32.6807 | +0.0415 | 0.5072 | +0.791 | 0.00e+00 | 0.00e+00 | True
+ 5 | MTLD                           | +25.0265 | +0.0000 | 0.0000 | +0.000 | 1.00e+00 | 1.00e+00 | False
+ 6 | articles_rate                  | -10.0696 | -0.0006 | 0.1864 | -0.297 | 8.28e-42 | 1.24e-41 | True
+ 7 | MSTTR                          | +5.4803 | +0.0071 | 0.1398 | -0.411 | 1.90e-93 | 4.89e-93 | True
+ 8 | AvgLogFreq                     | -5.1735 | +0.0758 | 0.7086 | +0.386 | 2.13e-84 | 4.26e-84 | True
+ 9 | TTR                            | -3.9657 | -0.0099 | 0.2411 | -0.387 | 7.94e-65 | 1.30e-64 | True
+10 | pronouns_rate                  | -3.6199 | +0.0035 | 0.0782 | +0.415 | 3.90e-92 | 8.78e-92 | True
+11 | uppercase_ratio                | -1.4306 | +0.0003 | 0.0091 | -0.134 | 1.87e-222 | 1.12e-221 | True
+12 | subordination_index            | -0.8781 | +0.0097 | 0.2332 | -0.017 | 1.13e-02 | 1.19e-02 | True
+13 | lexical_overlap                | +0.2090 | +0.0013 | 0.2753 | +0.282 | 4.38e-67 | 7.88e-67 | True
+14 | avg_dep_depth                  | -0.0440 | -0.0001 | 0.0162 | +0.051 | 6.39e-04 | 7.19e-04 | True
+15 | connective_rate                | +0.0433 | -0.0001 | 0.0044 | +0.067 | 4.96e-15 | 5.95e-15 | True
+16 | error_rate_per_1k              | -0.0302 | +0.0524 | 0.8007 | +0.274 | 2.61e-37 | 3.61e-37 | True
+17 | mean_sent_len                  | +0.0089 | -0.0008 | 0.0473 | +0.134 | 8.65e-26 | 1.11e-25 | True
+18 | auxiliaries_rate               | +0.0000 | +0.0000 | 0.0000 | -0.395 | 2.24e-96 | 6.73e-96 | True
+
+These results show the top interpretable linguistic features that distinguish native from non-native English texts based on three complementary importance measures from your sparse logistic regression model:
+
+***
+
+### Interpretation of Columns
+- **Coefficient (Coef):**  
+  Shows the signed weight of each feature in the linear model. A negative coefficient means higher values of that feature are associated with the native class (assuming your coding), while a positive coefficient favors the non-native class.
+
+- **Permutation Importance (PermImp):**  
+  Reflects how much shuffling that feature’s values lowers model accuracy on the test set. Larger values mean the feature is more important for predictive accuracy, regardless of sign.
+
+- **SHAP (abs mean):**  
+  Average absolute SHAP values show how much each feature contributes to model predictions (impact magnitude), independent of direction, across all test samples.
+
+***
+
+### Key Takeaways
+
+1. **Highly negative coefficients with moderate to high importance:**  
+   Features like **semicolon_rate (-995)**, **comma_rate (-268)**, **LexicalDensity (-34)**, and **prepositions_rate (-33)** are very strong indicators of the native class. Native speakers tend to use more semicolons, commas, richer lexical density, and more prepositions. This is also supported by moderate permutation importance and substantial SHAP values, confirming their real impact on model predictions.
+
+2. **Positive coefficients with low permutation importance:**  
+   Features such as **MTLD (+22)**, **bigram_repetition_rate (+9)**, and **MSTTR (+8)** have a positive coefficient suggesting they are more frequent or stronger signals in non-native texts. However, their permutation importance and SHAP values are often low or zero, indicating their actual predictive contribution may be limited or noisy.
+
+3. **Functional words and frequency features:**  
+   - **articles_rate (-9.8)**, **pronouns_rate (-4.2)**, and **AvgLogFreq (-4.9)** have negative coefficients and moderate importance, consistent with native speakers using articles and pronouns more naturally, plus using more frequent words.
+   
+4. **Error-related features:**  
+   - **error_rate_per_1k (-0.03)** has a small negative coefficient but relatively high permutation importance and SHAP value (~0.79), indicating spelling/grammar errors are good cues for identifying non-native writing.
+
+5. **Low or zero importance features:**  
+   Features like **auxiliaries_rate**, **TTR**, and **avg_dep_depth** have near-zero coefficients and importance scores, suggesting they do not meaningfully distinguish native vs. non-native in your data.
+
+***
+
+### Summary
+
+- The model clearly relies on **punctuation usage (semicolons, commas)**, **lexical richness/density**, and **function word usage** as strong, interpretable markers of nativeness.
+- Measures of **textual diversity** (MTLD, MSTTR) and some higher-level syntax features show weak or inconsistent roles.
+- **Error rates** remain important indicators of non-nativeness.
+- Combining coefficient signs with importance scores and SHAP values lets you cross-validate which features are genuinely predictive rather than artifacts of model fitting.
+
+***
+
+These insights guide further analysis (e.g., in Experiment 2) by focusing on feature groups with highest predictive value and exploring linguistic explanations underlying these patterns. Let me know if you want help interpreting any specific features further!

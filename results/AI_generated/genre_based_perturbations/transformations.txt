@@ -1,0 +1,5 @@
+transformations = {
+    "journalistic_style": "Rewrite the text in a journalistic style (more concise, fact-focused) while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. ",
+    "blog_style": "Rewrite the text in a blog style (more informal, with personal commentary) while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. ",
+    "academic_style": "Rewrite the text in an academic-like but messy style while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. "
+}

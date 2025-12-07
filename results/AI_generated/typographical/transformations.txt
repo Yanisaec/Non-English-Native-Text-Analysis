@@ -1,0 +1,5 @@
+transformations = {
+    "punctuation_variation": "Rewrite the text with human-like punctuation variation (Use dashes, semicolons, ellipses, parentheses, etc.) while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. ",
+    "comma_irregularity": "Rewrite the text with slight comma irregularities while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. ",
+    "non_intrusive_typos": "Rewrite the text with non intrusive typos (e.g., “enviroment” → “environment”) while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. ",
+}

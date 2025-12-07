@@ -1,0 +1,5 @@
+transformations = {
+    "less_formal": "Rewrite the text in a more casual and less formal tone while keeping the meaning unchanged. Don't return ANYTHING other than the modified text.",
+    "noisy_human": "Rewrite the text with a few natural human-like imperfections, such as minor typos, contractions, or slight inconsistencies, but keep it readable. Don't return ANYTHING other than the modified text.",
+    "more_human_flow": "Rewrite the text to sound more naturally human, adding discourse markers, varied sentence length, and a more conversational flow. Don't return ANYTHING other than the modified text."
+}

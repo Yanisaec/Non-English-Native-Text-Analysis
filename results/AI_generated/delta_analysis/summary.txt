@@ -1,0 +1,39 @@
+
+DELTA CONSISTENCY ANALYSIS REPORT
+================================
+
+Total CSV files: 5
+Total rows: 3000
+Unique text_ids: 200
+Unique transformations: 15
+
+GLOBAL BEHAVIOR
+---------------
+Ratio of texts with constant delta: 0.060
+Ratio of texts where transformation changes delta: 0.940
+
+Mean entropy per text: 0.4937
+Mean variance per text: 0.1645
+
+INTERPRETATION
+--------------
+If constant_ratio is near 1.0:
+- delta is a function of text only.
+
+If constant_ratio is near 0:
+- transformations significantly affect delta.
+
+High entropy / variance:
+- transformation-dependent behavior.
+
+Low entropy / variance:
+- text-dominant behavior.
+
+FILES GENERATED
+---------------
+- delta_statistics_per_text.csv   (per text metrics)
+- delta_statistics_per_transformation.csv
+- entropy_distribution.png
+- variance_distribution.png
+- mean_delta_per_transformation.png
+- std_delta_per_transformation.png

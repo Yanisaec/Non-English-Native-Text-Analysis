@@ -1,0 +1,3 @@
+native: 1 AI-flagged texts out of 2000 sampled texts
+non_native: 0 AI-flagged texts out of 2000 sampled texts
+Total AI-flagged: 1

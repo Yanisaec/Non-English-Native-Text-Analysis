@@ -1,0 +1,17 @@
+Baseline macro F1: 0.6706
+
+Feature Group Ablation (delta F1):
+A: 0.1214
+B: 0.0171
+C: 0.0008
+D: 0.0179
+E: 0.0146
+F: -0.0049
+
+Feature Group Permutation Importance (delta F1):
+A: 0.1282
+B: 0.0613
+C: 0.0125
+D: 0.0477
+E: 0.0126
+F: -0.0036

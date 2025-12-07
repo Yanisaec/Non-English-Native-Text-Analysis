@@ -1,0 +1,7 @@
+transformations = {
+    "lexical_density": "Rewrite the text with less lexical density while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. ",
+    "articles_rate": "Rewrite the text with a higher articles rate while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. ",
+    "prepositions_rate": "Rewrite the text with less prepositions while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. ",
+    "pronouns_rate": "Rewrite the text with a higher pronouns rate while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. ",
+    "auxiliaries_rate": "Rewrite the text with a higher auxiliaries rate while keeping the meaning unchanged. Do not say things like 'Sure', 'Certainly', 'Here is the rewritten text', etc. Do not add any acknowledgement. ",
+}

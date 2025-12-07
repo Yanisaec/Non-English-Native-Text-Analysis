@@ -1,0 +1,26 @@
+ASAP2 (native)
+TTR,MSTTR,LexicalDensity,AvgLogFreq,articles_rate,prepositions_rate,pronouns_rate,auxiliaries_rate,mean_sent_len,subordination_index,avg_dep_depth,error_rate_per_1k,comma_rate,semicolon_rate,uppercase_ratio,connective_rate,lexical_overlap
+0.46563501400671775,0.7873230706035766,0.4177784957339428,5.863442491422346,0.07595004330555767,0.09125007188301645,0.05136063430992958,0.0618524570263245,20.482493087824828,0.5220708827664327,2.809127161304735,45.28486410346513,0.005714387443164049,7.898027291308295e-05,0.01863620903042959,0.12192315208645234,4.511417291175532
+
+PERSUADE (native)
+TTR,MSTTR,LexicalDensity,AvgLogFreq,articles_rate,prepositions_rate,pronouns_rate,auxiliaries_rate,mean_sent_len,subordination_index,avg_dep_depth,error_rate_per_1k,comma_rate,semicolon_rate,uppercase_ratio,connective_rate,lexical_overlap
+0.39919832670500566,0.774671445977941,0.43970134165983693,6.046316306504442,0.05627697364946328,0.09619546048592328,0.06683072194807758,0.062088692609934076,22.082685475917415,0.6630474777814406,2.8387553157249017,22.005858642485858,0.005538109187472527,8.617234480553355e-05,0.014259338765177444,0.18871272096134836,5.363080716643787
+
+TOEFL11 (non-native)
+TTR,MSTTR,LexicalDensity,AvgLogFreq,articles_rate,prepositions_rate,pronouns_rate,auxiliaries_rate,mean_sent_len,subordination_index,avg_dep_depth,error_rate_per_1k,comma_rate,semicolon_rate,uppercase_ratio,connective_rate,lexical_overlap
+0.46489929516518824,0.7755650521012794,0.452610977748103,5.942356770934165,0.06647544238284488,0.1034532381824777,0.05711946983645811,0.0588528478764244,22.484106789619112,0.5854475329380079,2.841001366514962,61.76525465345206,0.007233099325046234,9.251318263688198e-05,0.013095222561226891,0.15133595767981517,4.947090723314916
+
+CELL (non-native)
+TTR,MSTTR,LexicalDensity,AvgLogFreq,articles_rate,prepositions_rate,pronouns_rate,auxiliaries_rate,mean_sent_len,subordination_index,avg_dep_depth,error_rate_per_1k,comma_rate,semicolon_rate,uppercase_ratio,connective_rate,lexical_overlap
+0.34655382236746374,0.7784767539316796,0.4437708385659193,5.774376065773838,0.07874629938285256,0.1055932344907831,0.02632742860195847,0.045107122232332916,21.442818070733587,0.35300225928820517,2.9313517554089246,32.44206866864093,0.00845729707811481,0.003916099719562267,0.017532792993814477,0.12454864083079757,5.202370524617065
+
+The split across metrics is:
+
+A: TTR,MSTTR,LexicalDensity,AvgLogFreq
+B: articles_rate,prepositions_rate,pronouns_rate,auxiliaries_rate
+C: mean_sent_len,subordination_index,avg_dep_depth
+D: error_rate_per_1k
+E: comma_rate,semicolon_rate,uppercase_ratio
+F: connective_rate,lexical_overlap
+
+I want you to write the latex code for the tables for each metrics from A-F. Put all 4 datasets into each tables.
