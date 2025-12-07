@@ -4,4 +4,4 @@
 /datasets/precompute/vectorized_char_test.pkl
 /datasets/precompute/vectorized_char_train.pkl
 /datasets/precompute/vectorized_word_train.pkl
-datasets/*.pkl
+/datasets/*.pkl
